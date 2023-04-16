@@ -1,38 +1,60 @@
-.App {
+.align-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@font-face {
+  font-family: "NimbusBold";
+  src: url("./Fonts/NimbusSanL-Bol.otf");
+}
+
+@font-face {
+  font-family: "NimbusRegular";
+  src: url("./Fonts/NimbusSanL-Reg.otf");
+}
+
+.title{
+  font-family: 'NimbusBold';
+  font-size: 100px;
+  line-height: 1em;
+}
+
+.subtitle{
+  font-family: 'NimbusRegular';
+  font-size: 20px;
+  margin-top : 2em;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.back-arrow{
+  height: 60px;
+  margin-top : 20px;
+  margin-left : 20px;
+  cursor : pointer;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.blob.red {
+	color : red;
+	animation: pulse-red 2s infinite;
+  cursor : pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@keyframes pulse-red {
+	0% {
+		transform: scale(0.95);
+		color: red;
+	}
+	
+	70% {
+		transform: scale(1);
+		color:  rgba(255, 58, 58, 0);
+	}
+	
+	100% {
+		transform: scale(0.95);
+		color:  rgba(255, 67, 67, 0);
+	}
 }
