@@ -16,14 +16,24 @@
   src: url("./Fonts/NimbusSanL-Reg.otf");
 }
 
+@font-face {
+  font-family: "AvantGardeGothicBold";
+  src: url("./Fonts/ITC\ Avant\ Garde\ Gothic\ LT\ Bold.ttf");
+}
+
+@font-face {
+  font-family: "AvantGardeGothicRegular";
+  src: url("./Fonts/itc-avant-garde-gothic-lt-book.ttf");
+}
+
 .title{
-  font-family: 'NimbusBold';
+  font-family: 'AvantGardeGothicBold';
   font-size: 100px;
   line-height: 1em;
 }
 
 .subtitle{
-  font-family: 'NimbusRegular';
+  font-family: 'AvantGardeGothicRegular';
   font-size: 20px;
   margin-top : 2em;
   text-align: center;
