@@ -2,7 +2,8 @@ import './App.css';
 import LandingPage from './Pages/LandingPage';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HelloPage from './Pages/HelloPage';
-import PersonalPathPage from './Pages/PersonalPathPage';
+import PersonalPathPage2 from './Pages/PersonalPathPage2';
+import ProjectIndexPage from './Pages/ProjectIndexPage'
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
     <Routes>
       <Route path="/" element={<HelloPage />}></Route>
       <Route path="/landing" element={<LandingPage />}></Route>
-      <Route path="/personal-path" element={<PersonalPathPage />}></Route>
+      <Route path="/personal-path" element={<PersonalPathPage2 />}></Route>
+      <Route path="/project-index" element={<ProjectIndexPage />}></Route>
     </Routes>
   </BrowserRouter>
   );

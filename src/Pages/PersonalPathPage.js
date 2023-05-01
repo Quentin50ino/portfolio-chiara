@@ -2,6 +2,7 @@ import { useNavigate } from 'react-router';
 import '../App.css';
 import arrowLeft from '../img/arrow-left.svg';
 import { useState } from 'react';
+import presentazioneCarriera from '../img/presentazione_carriera.png';
 
 function PersonalPathPage() {
     
@@ -10,6 +11,7 @@ function PersonalPathPage() {
     const [secondStep, setSecondStep] = useState(false);
     const [thirdStep, setThirdStep] = useState(false);
     const [fourthStep, setFourthStep] = useState(false);
+    const [fifthStep, setFifthStep] = useState(false);
 
     function onClickFirstStep(){
       setFirstStep(true);
@@ -30,13 +32,18 @@ function PersonalPathPage() {
       setFourthStep(true);
     }
 
+    function onClickFifthStep(){
+      setFifthStep(true);
+      navigate('/project-index');
+    }
+
   return (
     <div>
-      <img src={arrowLeft} className='back-arrow' onClick={() => navigate('/landing')} alt="back arrow"/>
-      <div style={{display : 'flex'}}>
+      <div style={{display : 'flex', marginTop : '40px'}}>
       <div style={{width : '50%'}}>
-        <div style={{display : 'flex', justifyContent : 'center'}}>
-          <div className='path-title'>education
+        <div style={{display : 'flex'}}>
+        <img src={arrowLeft} className='back-arrow' onClick={() => navigate('/landing')} alt="back arrow"/>
+          <div className='path-title' style={{marginLeft : '4em'}}>education
           {!firstStep && !secondStep && !thirdStep && !fourthStep?<span className='blob red' style={{fontSize : '60px'}} onClick={() => onClickFirstStep()}>*</span>:null}
             {firstStep?<div className='path-subtitle typewriter'>
             <div>2013-2018 - Scientific high school N.Rodolico; Florence</div> 
@@ -44,22 +51,24 @@ function PersonalPathPage() {
             </div>:null}
           </div>
         </div>
-        <div className='title path'>
-          and this is <br></br> my path
-        </div>
+        <img src={presentazioneCarriera} width="600px" className='path' alt='presentazione di carriera'></img>
         <div style={{display : 'flex', justifyContent : 'start', marginLeft: '40px'}}>
-          <div className='path-title'>languages
+          <div className='path-title' style={{width : '68%'}}>languages
           {!thirdStep && secondStep?<span className='blob red' style={{fontSize : '60px'}} onClick={() => onClickThirdStep()}>*</span>:null}
             {thirdStep?<div className='path-subtitle typewriter'>
             <div>Italian _ native language</div>
             <div>English _ Level B2 (TOEIC)</div>
             </div>:null}
           </div>
+          <div className='path-title' style={{width : '32%', marginTop : '60px'}}>
+            projects
+            {!fifthStep && fourthStep?<span className='blob red' style={{fontSize : '60px'}} onClick={() => onClickFifthStep()}>*</span>:null}
+          </div>
         </div>
       </div>
       <div style={{width : '50%'}}>
-      <div style={{display : 'flex', justifyContent : 'start', marginLeft: '40px'}}>
-          <div className='path-title'>additional information
+      <div style={{display : 'flex', justifyContent : 'start', marginLeft: '40px', height : '40%'}}>
+          <div className='path-title'><div>additional information</div>
           {!fourthStep && thirdStep?<span className='blob red' style={{fontSize : '60px'}} onClick={() => onClickFourthStep()}>*</span>:null}
             {fourthStep?<div className='path-subtitle typewriter'>
             <div>In the 2015 and 2017 I attended English language courses in Brighton and Oxford.</div> 
@@ -71,7 +80,7 @@ function PersonalPathPage() {
             </div>:null}
           </div>
         </div>
-        <div style={{display : 'flex', justifyContent : 'center', marginTop : '60px'}}>
+        <div style={{display : 'flex', justifyContent : 'center', marginTop : '60px', height : '50%'}}>
           <div className='path-title'>work experience
           {!secondStep && firstStep?<span className='blob red' style={{fontSize : '60px'}} onClick={() => onClickSecondStep()}>*</span>:null}
             {secondStep?<div className='path-subtitle typewriter-work-experience'>

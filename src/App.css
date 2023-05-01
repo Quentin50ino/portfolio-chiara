@@ -32,11 +32,30 @@
   line-height: 1em;
 }
 
+.title-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vertical-center {
+  position: fixed;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+
 .subtitle{
   font-family: 'AvantGardeGothicRegular';
   font-size: 20px;
   margin-top : 2em;
   text-align: center;
+}
+
+.small-title{
+  font-family: 'AvantGardeGothicBold';
+  font-size: 35px;
+  line-height: 1em;
 }
 
 .back-arrow{
@@ -71,8 +90,8 @@
 
 .path{
   margin-top : 80px;
-  margin-bottom : 80px;
   margin-left : 40px;
+  margin-bottom : -30px;
 }
 
 .path-title{
