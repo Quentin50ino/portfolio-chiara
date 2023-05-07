@@ -45,6 +45,20 @@
   transform: translate(-50%, -50%);
 }
 
+.thats-me-center {
+  position: fixed;
+  top: 50%;
+  left: 46%;
+  transform: translate(-50%, -50%);
+}
+
+.vertical-and-orizontal-center {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .subtitle{
   font-family: 'AvantGardeGothicRegular';
   font-size: 20px;
@@ -69,6 +83,10 @@
 	color : red;
 	animation: pulse-red 2s infinite;
   cursor : pointer;
+}
+
+.pattern-path-details{
+  transform: rotate(-45deg);
 }
 
 @keyframes pulse-red {
