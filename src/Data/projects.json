@@ -1,0 +1,104 @@
+[
+  {
+     "key":"project1",
+     "name":"Side to Side",
+     "subtitle":"apartment",
+     "bannerImage":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/c72d43eb21400cde1c27f7e69d2784c2923c0b57/side%20to%20side/Intro_definitiva.svg",
+     "informations":[
+      ],
+     "images":[
+        {
+           "label":"",
+           "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+           "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/45e2c50e63e1ce680f7f1433c014a16e158d77db/side%20to%20side/Intro_def.svg"
+        },
+        {
+           "label":"",
+           "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+           "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/1ca7f94f44d08be55f7bdeff85088116e8e9e488/side%20to%20side/SVG/intro_definitiva.svg"
+        }
+     ],
+     "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rhoncus varius tellus, eu laoreet sem aliquet et. Sed viverra nunc vel metus rutrum, at iaculis felis dapibus. Nulla facilisi. Vestibulum eu pulvinar erat. Nam ullamcorper tellus vitae arcu mollis, eu laoreet dui rutrum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer vulputate pellentesque libero, in euismod eros dictum rhoncus. Nulla facilisi. Vestibulum commodo, neque at interdum pulvinar, justo turpis aliquet enim, et efficitur velit justo sed ex. Vestibulum sapien dolor, fringilla eget consectetur sagittis, fringilla a lectus. Donec non justo finibus, tincidunt felis sed, ultrices nunc. Nam vehicula, tellus id ullamcorper imperdiet, lectus massa bibendum ipsum, et pulvinar velit turpis sed ligula. Phasellus non diam egestas eros vestibulum cursus in ut felis. Aliquam placerat augue augue, quis rutrum risus eleifend in. Aliquam non nisl quis dolor fringilla gravida vitae et mi. Proin efficitur odio sit amet velit porta ullamcorper.",
+     "imageNameFront":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%201.svg?token=ATJMFNVMZLG4NYZ3HZXA3NTEK6ZOQ",
+     "imageNameBack":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%201b.svg?token=ATJMFNRKCVU4LOUNVSHXIC3EK6ZTO"
+  },
+  {
+     "key":"project2",
+     "name":"Tree Wood",
+     "subtitle":"product",
+     "bannerImage":"",
+     "informations":[
+      ],
+     "images":[
+     ],
+     "description":"",
+     "imageNameFront":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%202%20.svg?token=ATJMFNUCL6DC5WRYCHMFKGDEK6ZWY",
+     "imageNameBack":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%202b.svg?token=ATJMFNQD2VSF7YB2U3AHIYLEK6ZYE"
+  },
+  {
+     "key":"project3",
+     "name":"Connections",
+     "subtitle":"retail",
+     "bannerImage":"",
+     "informations":[
+      ],
+     "images":[
+     ],
+     "description":"",
+     "imageNameFront":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%203.svg?token=ATJMFNXMHAVQ6DYAQ5UJQBDEK6ZZK",
+     "imageNameBack":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%203b.svg?token=ATJMFNUVQEAR7UIMXEYK3UDEK6Z26"
+  },
+  {
+     "key":"project4",
+     "name":"Grid's Shadows",
+     "subtitle":"office",
+     "bannerImage":"",
+     "informations":[
+      ],
+     "images":[
+     ],
+     "description":"",
+     "imageNameFront":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%204.svg?token=ATJMFNRBQIF4CELJB63UAYDEK6Z4E",
+     "imageNameBack":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%204b.svg?token=ATJMFNW4EAELEWTA375QPODEK6Z5C"
+  },
+  {
+     "key":"project5",
+     "name":"Upstairs",
+     "subtitle":"boutique hotel",
+     "bannerImage":"",
+     "informations":[
+      ],
+     "images":[
+     ],
+     "description":"",
+     "imageNameFront":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%205.svg?token=ATJMFNSNHND4SHZNIGVZEL3EK6Z6G",
+     "imageNameBack":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%205b.svg?token=ATJMFNRIC3ADLXL6YMPJ4O3EK6Z7I"
+  },
+  {
+     "key":"project6",
+     "name":"Kitchen",
+     "subtitle":"apartment",
+     "bannerImage":"",
+     "informations":[
+        {
+           "label":"Plan",
+           "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/a6c773f38c2afa36b4405f5c584f9c09933b7e67/KITCHEN/Planimetria.svg"
+        }
+     ],
+     "images":[
+        {
+           "label":"",
+           "description":"",
+           "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/269ed9d5b35b871b95a515ee83b77186979ee2ba/KITCHEN/Tavola%20disegno%201.svg"
+        },
+        {
+           "label":"",
+           "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+           "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/a6c773f38c2afa36b4405f5c584f9c09933b7e67/KITCHEN/Disegno%202.svg"
+        }
+     ],
+     "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rhoncus varius tellus, eu laoreet sem aliquet et. Sed viverra nunc vel metus rutrum, at iaculis felis dapibus. Nulla facilisi. Vestibulum eu pulvinar erat. Nam ullamcorper tellus vitae arcu mollis, eu laoreet dui rutrum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer vulputate pellentesque libero, in euismod eros dictum rhoncus. Nulla facilisi. Vestibulum commodo, neque at interdum pulvinar, justo turpis aliquet enim, et efficitur velit justo sed ex. Vestibulum sapien dolor, fringilla eget consectetur sagittis, fringilla a lectus. Donec non justo finibus, tincidunt felis sed, ultrices nunc. Nam vehicula, tellus id ullamcorper imperdiet, lectus massa bibendum ipsum, et pulvinar velit turpis sed ligula. Phasellus non diam egestas eros vestibulum cursus in ut felis. Aliquam placerat augue augue, quis rutrum risus eleifend in. Aliquam non nisl quis dolor fringilla gravida vitae et mi. Proin efficitur odio sit amet velit porta ullamcorper.",
+     "imageNameFront":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%206.svg?token=ATJMFNS2IY7O3HYUGDT7TRDEK62AI",
+     "imageNameBack":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%206b.svg?token=ATJMFNTI4JHFO5MKXHQPQADEK62BI"
+  }
+]

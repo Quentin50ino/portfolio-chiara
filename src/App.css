@@ -26,6 +26,41 @@
   src: url("./Fonts/itc-avant-garde-gothic-lt-book.ttf");
 }
 
+.project-title{
+  font-family: 'AvantGardeGothicBold';
+  font-size: 50px;
+  line-height: 1em;
+  display : flex;
+  justify-content : center;
+  margin-top : 45px;
+}
+
+.project-label{
+  font-family: 'AvantGardeGothicBold';
+  font-size: 35px;
+  line-height: 1em;
+  display : flex;
+  justify-content : center;
+}
+
+.project-description{
+  font-family: 'AvantGardeGothicRegular';
+  font-size: 20px;
+  line-height: 1em;
+  margin-top : 60px;
+  padding : 0px 400px;
+}
+
+.carousel-description{
+  font-family: 'AvantGardeGothicRegular';
+  font-size: 20px;
+  line-height: 1em;
+  padding-left : 600px;
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
+}
+
 .title{
   font-family: 'AvantGardeGothicBold';
   font-size: 100px;
