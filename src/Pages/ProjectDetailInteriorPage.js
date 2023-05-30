@@ -25,7 +25,7 @@ function ProjectDetailInteriorPage() {
         <div className='project-description'>
             {selectedProject.description}
         </div>
-        {selectedProject.informations.length!==0?<Carousel variant="dark" style={{marginTop : '100px'}}>
+        {selectedProject.informations.length!==0?<Carousel variant="dark" style={{marginTop : '100px'}} className={`${selectedProject.informations.length===1 ? "carousel-no-arrow" : ""}`}>
         {
             selectedProject.informations.map((item) => {
                 return(
@@ -34,19 +34,14 @@ function ProjectDetailInteriorPage() {
                         {item.label}
                     </div>
                     <div className="d-flex justify-content-center">
-                      <img src={item.image} alt="First slide" height="700px"/>
+                      <img src={item.image} alt="First slide" height="500px"/>
                     </div>
-                  <Carousel.Caption>
-                  <div className='carousel-description'>
-                        {item.description}
-                    </div>
-                  </Carousel.Caption>
                 </Carousel.Item>
              )
             })
         }
         </Carousel>:null}
-        {selectedProject.images.length!==0?<Carousel variant="dark" style={{marginTop : '100px'}}>
+        {selectedProject.images.length!==0?<Carousel variant="dark" style={{marginTop : '100px', height  : '750px'}}>
         {
             selectedProject.images.map((item) => {
                 return(
@@ -57,11 +52,10 @@ function ProjectDetailInteriorPage() {
                     <div className="d-flex justify-content-center">
                       <img src={item.image} alt="First slide" height="700px"/>
                     </div>
-                  <Carousel.Caption>
+                  
                   <div className='carousel-description'>
                         {item.description}
                     </div>
-                  </Carousel.Caption>
                 </Carousel.Item>
              )
             })

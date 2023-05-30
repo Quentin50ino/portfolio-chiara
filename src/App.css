@@ -37,7 +37,7 @@
 
 .project-label{
   font-family: 'AvantGardeGothicBold';
-  font-size: 35px;
+  font-size: 25px;
   line-height: 1em;
   display : flex;
   justify-content : center;
@@ -55,10 +55,24 @@
   font-family: 'AvantGardeGothicRegular';
   font-size: 20px;
   line-height: 1em;
-  padding-left : 600px;
   display: flex;
   justify-content: flex-end;
   text-align: right;
+  margin-right: 5em;
+  margin-top : -20px;
+}
+
+.carousel-indicators{
+  display: none !important;
+}
+
+.carousel-no-arrow{
+  .carousel-control-next{
+    display: none !important;
+  }
+  .carousel-control-prev{
+    display: none !important;
+  }
 }
 
 .title{
