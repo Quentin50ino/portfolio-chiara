@@ -58,12 +58,32 @@
      "key":"project2",
      "name":"Tree Wood",
      "subtitle":"product",
-     "bannerImage":"",
+     "bannerImage":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/bb4b5299c598d77306f6364a55d0f107459b1339/Arredo%20svg/Tavola%20disegno%202.svg",
      "informations":[
+      {
+         "label":"",
+         "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/main/Arredo%20svg/cartolina.jpg"
+      }
       ],
      "images":[
+      {
+         "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/bb4b5299c598d77306f6364a55d0f107459b1339/Arredo%20svg/Tavola%20disegno%203.svg"
+      },
+      {
+         "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/bb4b5299c598d77306f6364a55d0f107459b1339/Arredo%20svg/Tavola%20disegno%205.svg"
+      },
+      {
+         "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/bb4b5299c598d77306f6364a55d0f107459b1339/Arredo%20svg/Tavola%20disegno%206.svg"
+      },
+      {
+         "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/bb4b5299c598d77306f6364a55d0f107459b1339/Arredo%20svg/Tavola%20disegno%207.svg"
+      },
+      {
+         "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/bb4b5299c598d77306f6364a55d0f107459b1339/Arredo%20svg/Tavola%20disegno%208.svg"
+      }
      ],
-     "description":"",
+     "description":"Tree wood is a furniture product, which focuses on the theme of sustainability. Technologies and functions are linked through a game of geometric shapes and different wood essences to return a piece of furniture suitable for everyone. The product's name represents the relationship between three wooden elements of different types and origins, which are identified as predominant essences in the product itself. Tree wood, in addition to the function of a coat hanger and mirror, is characterized as a pocket-emptier shelf, which also supports a wireless charger.",
+     "shortDescription" : "This product is designed for easy living. It stands for the modernity of being entirely convertible. It can be adapted to various needs, for people always on the go and in constant evolution.",
      "imageNameFront":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%202%20.svg?token=ATJMFNUCL6DC5WRYCHMFKGDEK6ZWY",
      "imageNameBack":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%202b.svg?token=ATJMFNQD2VSF7YB2U3AHIYLEK6ZYE"
   },

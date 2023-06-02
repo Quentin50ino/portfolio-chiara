@@ -41,6 +41,9 @@ function ProjectDetailInteriorPage() {
             })
         }
         </Carousel>:null}
+        {selectedProject.shortDescription?<div className='project-short-description'>
+            {selectedProject.shortDescription.toUpperCase()}
+        </div>:null}
         {selectedProject.images.length!==0?<Carousel variant="dark" style={{marginTop : '100px', height  : '750px'}}>
         {
             selectedProject.images.map((item) => {

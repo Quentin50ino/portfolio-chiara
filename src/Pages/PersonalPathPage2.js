@@ -51,9 +51,9 @@ function PersonalPathPage2() {
     }
 
   return (
-    <div style={{display : 'flex'}}>
+    <div className='personal-path-page-container'>
       <img src={arrowLeft} className='back-arrow' onClick={() => navigate('/landing')} alt="back arrow"/>
-      <div style={{width : '50%'}}>
+      <div className='personal-path-page-block1'>
         <div className='title'>
             <div className='vertical-center'>
                 and this is <br></br>
@@ -64,7 +64,7 @@ function PersonalPathPage2() {
             </div>
         </div>
       </div>
-      <div style={{width : '50%'}}>
+      <div className='personal-path-page-block2'>
         <div style={{display : 'flex', justifyContent : 'center', marginTop : '100px'}}>
             <img src={pattern1} width="70px" alt="pattern 1"></img>
             <div onClick={() => openPersonalPath('education', pattern1, pattern1b, bulletListEducation)} style={{display : 'flex', justifyContent : 'center', alignItems : 'center', marginTop : '0px', width : '6em', cursor : 'pointer'}} className='subtitle'>education</div>
