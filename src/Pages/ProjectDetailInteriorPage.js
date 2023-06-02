@@ -1,20 +1,29 @@
 import { useNavigate } from 'react-router';
 import '../App.css';
 import arrowLeft from '../img/arrow-left.svg';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import projectsData from '../Data/projects.json';
 import Carousel from 'react-bootstrap/Carousel';
+import LoadingPage from './LoadingPage';
 
 function ProjectDetailInteriorPage() {
     
     const navigate = useNavigate();
     const projects = projectsData;
-      let [selectedProject, ] = useState(() => {
+    let [selectedProject, ] = useState(() => {
         return projects.filter((project) => project.key === new URL(window.location.href).searchParams.get("projectKey"))[0]
-      });
+    });
+    let [loading, setLoading] = useState(true);
+
+    useEffect(() => {
+        setTimeout(() => {
+            setLoading(false);
+        }, 2000)
+    })
 
   return (
     <div>
+    {!loading?<div>
         <img src={arrowLeft} className='back-arrow' onClick={() => navigate('/project-index')} alt="back arrow"/>
         <div style={{display : 'flex', justifyContent : 'center'}}>
             <img src={selectedProject.bannerImage} width="800px"/>
@@ -64,6 +73,7 @@ function ProjectDetailInteriorPage() {
             })
         }
         </Carousel>:null}
+    </div>:<LoadingPage/>}
     </div>
   );
 }

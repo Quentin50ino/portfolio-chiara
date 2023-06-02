@@ -102,6 +102,14 @@
   transform: translate(-50%, -50%);
 }
 
+.vertical-center-loading {
+  margin: 0;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .thats-me-center {
   position: fixed;
   top: 50%;
@@ -192,6 +200,22 @@
   font-size : 16px;
   color : black;
 }
+
+.rotate {
+  width: 100px;
+  animation: rotation 1s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+
 
 /*Mobile view*/
 @media (max-width: 650px) {
