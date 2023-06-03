@@ -25,10 +25,10 @@ function PersonalPathPageDetailsPage() {
       </div>
       <div style={{width : '50%'}}>
         <div>
-        <div style={{display : 'flex', justifyContent : 'space-around', marginTop : '100px'}}>
-            <img src={location.state.pattern} width="70px" alt="pattern" className='pattern-path-details'></img>
-            <div style={{display : 'flex', justifyContent : 'center', alignItems : 'center', marginTop : '0px', width : '6em'}} className='subtitle'>{location.state.title}</div>
-            <img src={location.state.patternb} width="70px" alt="pattern b" className='pattern-path-details'></img>
+        <div style={{display : 'flex', justifyContent : 'center', marginTop : '100px'}}>
+            <img src={location.state.pattern} width="70px" alt="pattern" className='pattern-path-details-left'></img>
+            <div style={{display : 'flex', justifyContent : 'center', alignItems : 'center', marginTop : '0px', width : '6em',cursor : "pointer"}} className='subtitle' onClick={() => navigate('/personal-path')}>{location.state.title}</div>
+            <img src={location.state.patternb} width="70px" alt="pattern b" className='pattern-path-details-right'></img>
         </div>
         <div style={{display : 'flex', justifyContent : 'center', marginTop : '40px'}}>
             <div >

@@ -8,7 +8,7 @@ function PersonalPathPage2() {
     let arrowLeft = "https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/arrow-left.svg?token=ATJMFNSFK3WWZ77QBPGP4TDEK6ZFC";
     let lineaRossa = "https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Linea%20rossa.svg?token=ATJMFNRFBEB26YG5CYXTUOLEK6ZCY";
     let pattern1 = "https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/pattern%201.svg?token=ATJMFNXRRMUGFQDETAJRMWLEK6YW6";
-    let pattern1b = "https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/pattern%201%20b.svg?token=ATJMFNQWFSAKADQHYPSPQUDEK6YYI";
+    let pattern1b = "https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/6eb2be999d2c93bb59852e72f42f00acb1d123f3/pattern1b.svg";
     let pattern2 = "https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Pattern%202.svg?token=ATJMFNXZZAQXMKMXQW7DWALEK6Y5O";
     let pattern2b = "https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Pattern%202b.svg?token=ATJMFNSKFALJAE7VQNQQR6TEK6Y7G";
     let pattern3 = "https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Pattern%203.svg?token=ATJMFNQIGDVIZWRJHPH4XYTEK6YIQ";
