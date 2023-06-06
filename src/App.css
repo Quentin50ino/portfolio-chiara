@@ -125,9 +125,9 @@
 
 .thats-me-center {
   position: fixed;
-  top: 50%;
   left: 46%;
-  transform: translate(-50%, -50%);
+  top : 50%;
+  transform: translate(-50%, -80%);
 }
 
 .vertical-and-orizontal-center {
@@ -135,6 +135,12 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.orizontal-center{
+  display: flex;
+  justify-content: center;
+  margin-top : 120px;
 }
 
 .subtitle{
@@ -168,9 +174,19 @@
   animation: leftmove 1s forwards;
 }
 
+.pattern-path-details-left-back{
+  position: relative;
+  animation: leftmoveback .5s forwards;
+}
+
 .pattern-path-details-right{
   position: relative;
   animation: rightmove 1s forwards;
+}
+
+.pattern-path-details-right-back{
+  position: relative;
+  animation: rightmoveback .5s forwards;
 }
 
 @keyframes leftmove {
@@ -183,6 +199,16 @@
   }
 }
 
+@keyframes leftmoveback {
+  from {
+    left: -150px;
+  }
+  to {
+    left: 0px;
+    transform: rotate(0deg);
+  }
+}
+
 @keyframes rightmove {
   from {
     right: 0px;
@@ -190,6 +216,16 @@
   to {
     right: -150px;
     transform: rotate(-45deg);
+  }
+}
+
+@keyframes rightmoveback {
+  from {
+    right: -150px;
+  }
+  to {
+    right: 0px;
+    transform: rotate(0deg);
   }
 }
 

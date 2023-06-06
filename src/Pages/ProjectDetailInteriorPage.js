@@ -46,6 +46,22 @@ function ProjectDetailInteriorPage() {
         <div className='project-description'>
             {selectedProject.description}
         </div>
+        {selectedProject.locations.length!==0?<Carousel interval={null} variant="dark" style={{marginTop : '100px'}} className={`${selectedProject.locations.length===1 ? "carousel-no-arrow" : (activeIndex === 0 ? "carousel-no-left-arrow" : (activeIndex === selectedProject.informations.length - 1 ? "carousel-no-right-arrow" : ""))}`}>
+        {
+            selectedProject.locations.map((item) => {
+                return(
+                <Carousel.Item >
+                    <div className='project-label'>
+                        {item.label}
+                    </div>
+                    <div className="d-flex justify-content-center">
+                      <img src={item.image} alt="First slide" height="500px"/>
+                    </div>
+                </Carousel.Item>
+             )
+            })
+        }
+        </Carousel>:null}
         {selectedProject.informations.length!==0?<Carousel activeIndex={activeIndex} onSelect={handleSelect} interval={null} variant="dark" style={{marginTop : '100px'}} className={`${selectedProject.informations.length===1 ? "carousel-no-arrow" : (activeIndex === 0 ? "carousel-no-left-arrow" : (activeIndex === selectedProject.informations.length - 1 ? "carousel-no-right-arrow" : ""))}`}>
         {
             selectedProject.informations.map((item) => {

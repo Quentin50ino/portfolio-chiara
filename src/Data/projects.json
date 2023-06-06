@@ -1,156 +1,191 @@
 [
-  {
-     "key":"project1",
-     "name":"Side to Side",
-     "subtitle":"apartment",
-     "bannerImage":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/c72d43eb21400cde1c27f7e69d2784c2923c0b57/side%20to%20side/Intro_definitiva.svg",
-     "informations":[
-      {
-         "label":"Location: Corso Dante 59 - Asti",
-         "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/8869b017265d51bb9d6bf7069938eb888d297b31/side%20to%20side/Facciata.svg"
-      },
-      {
-         "label":"Before",
-         "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/8330b22e5d58d3c95b601ad8ce63a30b16ace210/side%20to%20side/Stato%20di%20progetto.svg"
-      },
-      {
-         "label":"After",
-         "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/8330b22e5d58d3c95b601ad8ce63a30b16ace210/side%20to%20side/Stato%20di%20fatto%20.svg"
-      }
+   {
+      "key":"project1",
+      "name":"Side to Side",
+      "subtitle":"apartment",
+      "bannerImage":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/c72d43eb21400cde1c27f7e69d2784c2923c0b57/side%20to%20side/Intro_definitiva.svg",
+      "locations":[
+         {
+            "label":"Location: Corso Dante 59 - Asti",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/8869b017265d51bb9d6bf7069938eb888d297b31/side%20to%20side/Facciata.svg"
+         }
       ],
-     "images":[
-        {
-           "label":"",
-           "description":"Living Room",
-           "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/45e2c50e63e1ce680f7f1433c014a16e158d77db/side%20to%20side/Intro_def.svg"
-        },
-        {
-         "label":"",
-         "description":"Master Bedroom",
-         "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/main/side%20to%20side/Tavola%20disegno%201.png"
-      },
-      {
-         "label":"",
-         "description":"Bathroom 1",
-         "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/686979de5734debee780a41d9cbf611d96304951/side%20to%20side/Bagno%201.svg"
-      },
-        {
-           "label":"",
-           "description":"Single Room",
-           "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/e46e37bf660a7163684471fa01e170c586dd862a/side%20to%20side/Camera%20ragazza.svg"
-        },
-        {
-         "label":"",
-         "description":"Single Room",
-         "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/c2bb0e3fd28f7e2ed295d034341ee2e7e59aeeaf/side%20to%20side/Camera%20ragazzo.svg"
-      },
-      {
-         "label":"",
-         "description":"Bathroom 2",
-         "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/main/side%20to%20side/Bagno%202.png"
-      }
-     ],
-     "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rhoncus varius tellus, eu laoreet sem aliquet et. Sed viverra nunc vel metus rutrum, at iaculis felis dapibus. Nulla facilisi. Vestibulum eu pulvinar erat. Nam ullamcorper tellus vitae arcu mollis, eu laoreet dui rutrum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer vulputate pellentesque libero, in euismod eros dictum rhoncus. Nulla facilisi. Vestibulum commodo, neque at interdum pulvinar, justo turpis aliquet enim, et efficitur velit justo sed ex. Vestibulum sapien dolor, fringilla eget consectetur sagittis, fringilla a lectus. Donec non justo finibus, tincidunt felis sed, ultrices nunc. Nam vehicula, tellus id ullamcorper imperdiet, lectus massa bibendum ipsum, et pulvinar velit turpis sed ligula. Phasellus non diam egestas eros vestibulum cursus in ut felis. Aliquam placerat augue augue, quis rutrum risus eleifend in. Aliquam non nisl quis dolor fringilla gravida vitae et mi. Proin efficitur odio sit amet velit porta ullamcorper.",
-     "imageNameFront":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%201.svg?token=ATJMFNVMZLG4NYZ3HZXA3NTEK6ZOQ",
-     "imageNameBack":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%201b.svg?token=ATJMFNRKCVU4LOUNVSHXIC3EK6ZTO"
-  },
-  {
-     "key":"project2",
-     "name":"Tree Wood",
-     "subtitle":"product",
-     "bannerImage":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/bb4b5299c598d77306f6364a55d0f107459b1339/Arredo%20svg/Tavola%20disegno%202.svg",
-     "informations":[
-      {
-         "label":"",
-         "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/main/Arredo%20svg/cartolina.jpg"
-      }
+      "informations":[
+         {
+            "label":"Before",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/8330b22e5d58d3c95b601ad8ce63a30b16ace210/side%20to%20side/Stato%20di%20progetto.svg"
+         },
+         {
+            "label":"After",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/8330b22e5d58d3c95b601ad8ce63a30b16ace210/side%20to%20side/Stato%20di%20fatto%20.svg"
+         }
       ],
-     "images":[
-      {
-         "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/f993d6f5631c86400250bfd7932c9617069a6a52/Arredo%20svg/Tavola%20disegno%203.svg"
-      },
-      {
-         "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/f993d6f5631c86400250bfd7932c9617069a6a52/Arredo%20svg/Tavola%20disegno%205.svg"
-      },
-      {
-         "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/f993d6f5631c86400250bfd7932c9617069a6a52/Arredo%20svg/Tavola%20disegno%206.svg"
-      },
-      {
-         "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/f993d6f5631c86400250bfd7932c9617069a6a52/Arredo%20svg/Tavola%20disegno%207.svg"
-      },
-      {
-         "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/f993d6f5631c86400250bfd7932c9617069a6a52/Arredo%20svg/Tavola%20disegno%208.svg"
-      }
-     ],
-     "description":"Tree wood is a furniture product, which focuses on the theme of sustainability. Technologies and functions are linked through a game of geometric shapes and different wood essences to return a piece of furniture suitable for everyone. The product's name represents the relationship between three wooden elements of different types and origins, which are identified as predominant essences in the product itself. Tree wood, in addition to the function of a coat hanger and mirror, is characterized as a pocket-emptier shelf, which also supports a wireless charger.",
-     "shortDescription" : "This product is designed for easy living. It stands for the modernity of being entirely convertible. It can be adapted to various needs, for people always on the go and in constant evolution.",
-     "imageNameFront":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%202%20.svg?token=ATJMFNUCL6DC5WRYCHMFKGDEK6ZWY",
-     "imageNameBack":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%202b.svg?token=ATJMFNQD2VSF7YB2U3AHIYLEK6ZYE"
-  },
-  {
-     "key":"project3",
-     "name":"Connections",
-     "subtitle":"retail",
-     "bannerImage":"",
-     "informations":[
+      "images":[
+         {
+            "label":"",
+            "description":"Living Room",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/45e2c50e63e1ce680f7f1433c014a16e158d77db/side%20to%20side/Intro_def.svg"
+         },
+         {
+            "label":"",
+            "description":"Master Bedroom",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/main/side%20to%20side/Tavola%20disegno%201.png"
+         },
+         {
+            "label":"",
+            "description":"Bathroom 1",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/686979de5734debee780a41d9cbf611d96304951/side%20to%20side/Bagno%201.svg"
+         },
+         {
+            "label":"",
+            "description":"Single Room",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/e46e37bf660a7163684471fa01e170c586dd862a/side%20to%20side/Camera%20ragazza.svg"
+         },
+         {
+            "label":"",
+            "description":"Single Room",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/c2bb0e3fd28f7e2ed295d034341ee2e7e59aeeaf/side%20to%20side/Camera%20ragazzo.svg"
+         },
+         {
+            "label":"",
+            "description":"Bathroom 2",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/main/side%20to%20side/Bagno%202.png"
+         }
       ],
-     "images":[
-     ],
-     "description":"",
-     "imageNameFront":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%203.svg?token=ATJMFNXMHAVQ6DYAQ5UJQBDEK6ZZK",
-     "imageNameBack":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%203b.svg?token=ATJMFNUVQEAR7UIMXEYK3UDEK6Z26"
-  },
-  {
-     "key":"project4",
-     "name":"Grid's Shadows",
-     "subtitle":"office",
-     "bannerImage":"",
-     "informations":[
+      "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rhoncus varius tellus, eu laoreet sem aliquet et. Sed viverra nunc vel metus rutrum, at iaculis felis dapibus. Nulla facilisi. Vestibulum eu pulvinar erat. Nam ullamcorper tellus vitae arcu mollis, eu laoreet dui rutrum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer vulputate pellentesque libero, in euismod eros dictum rhoncus. Nulla facilisi. Vestibulum commodo, neque at interdum pulvinar, justo turpis aliquet enim, et efficitur velit justo sed ex. Vestibulum sapien dolor, fringilla eget consectetur sagittis, fringilla a lectus. Donec non justo finibus, tincidunt felis sed, ultrices nunc. Nam vehicula, tellus id ullamcorper imperdiet, lectus massa bibendum ipsum, et pulvinar velit turpis sed ligula. Phasellus non diam egestas eros vestibulum cursus in ut felis. Aliquam placerat augue augue, quis rutrum risus eleifend in. Aliquam non nisl quis dolor fringilla gravida vitae et mi. Proin efficitur odio sit amet velit porta ullamcorper.",
+      "imageNameFront":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%201.svg?token=ATJMFNVMZLG4NYZ3HZXA3NTEK6ZOQ",
+      "imageNameBack":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%201b.svg?token=ATJMFNRKCVU4LOUNVSHXIC3EK6ZTO"
+   },
+   {
+      "key":"project2",
+      "name":"Tree Wood",
+      "subtitle":"product",
+      "bannerImage":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/bb4b5299c598d77306f6364a55d0f107459b1339/Arredo%20svg/Tavola%20disegno%202.svg",
+      "locations":[
+         
       ],
-     "images":[
-     ],
-     "description":"",
-     "imageNameFront":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%204.svg?token=ATJMFNRBQIF4CELJB63UAYDEK6Z4E",
-     "imageNameBack":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%204b.svg?token=ATJMFNW4EAELEWTA375QPODEK6Z5C"
-  },
-  {
-     "key":"project5",
-     "name":"Upstairs",
-     "subtitle":"boutique hotel",
-     "bannerImage":"",
-     "informations":[
+      "informations":[
+         {
+            "label":"",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/main/Arredo%20svg/cartolina.jpg"
+         },
+         {
+            "label":"",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/main/Arredo%20svg/Tree%20Wood%201.jpeg"
+         },
+         {
+            "label":"",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/main/Arredo%20svg/Tree%20Wood%202.jpeg"
+         },
+         {
+            "label":"",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/main/Arredo%20svg/Tree%20Wood%203.jpeg"
+         }
       ],
-     "images":[
-     ],
-     "description":"",
-     "imageNameFront":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%205.svg?token=ATJMFNSNHND4SHZNIGVZEL3EK6Z6G",
-     "imageNameBack":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%205b.svg?token=ATJMFNRIC3ADLXL6YMPJ4O3EK6Z7I"
-  },
-  {
-     "key":"project6",
-     "name":"Kitchen",
-     "subtitle":"apartment",
-     "bannerImage":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/5a61fc0f2583d0c969d99a68e04a61a280a43a87/KITCHEN/banner.svg",
-     "informations":[
-        {
-           "label":"Plan",
-           "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/a6c773f38c2afa36b4405f5c584f9c09933b7e67/KITCHEN/Planimetria.svg"
-        }
-     ],
-     "images":[
-        {
-           "label":"",
-           "description":"",
-           "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/bbb120fec3b741263de75821e2bf805d3007875a/KITCHEN/cucina%201.svg"
-        },
-        {
-           "label":"",
-           "description":"",
-           "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/c6a1f1802259a7a8f277ea5c624615573ba43d8b/KITCHEN/cucina%202.svg"
-        }
-     ],
-     "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rhoncus varius tellus, eu laoreet sem aliquet et. Sed viverra nunc vel metus rutrum, at iaculis felis dapibus. Nulla facilisi. Vestibulum eu pulvinar erat. Nam ullamcorper tellus vitae arcu mollis, eu laoreet dui rutrum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer vulputate pellentesque libero, in euismod eros dictum rhoncus. Nulla facilisi. Vestibulum commodo, neque at interdum pulvinar, justo turpis aliquet enim, et efficitur velit justo sed ex. Vestibulum sapien dolor, fringilla eget consectetur sagittis, fringilla a lectus. Donec non justo finibus, tincidunt felis sed, ultrices nunc. Nam vehicula, tellus id ullamcorper imperdiet, lectus massa bibendum ipsum, et pulvinar velit turpis sed ligula. Phasellus non diam egestas eros vestibulum cursus in ut felis. Aliquam placerat augue augue, quis rutrum risus eleifend in. Aliquam non nisl quis dolor fringilla gravida vitae et mi. Proin efficitur odio sit amet velit porta ullamcorper.",
-     "imageNameFront":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%206.svg?token=ATJMFNS2IY7O3HYUGDT7TRDEK62AI",
-     "imageNameBack":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%206b.svg?token=ATJMFNTI4JHFO5MKXHQPQADEK62BI"
-  }
+      "images":[
+         {
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/f993d6f5631c86400250bfd7932c9617069a6a52/Arredo%20svg/Tavola%20disegno%203.svg"
+         },
+         {
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/f993d6f5631c86400250bfd7932c9617069a6a52/Arredo%20svg/Tavola%20disegno%205.svg"
+         },
+         {
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/f993d6f5631c86400250bfd7932c9617069a6a52/Arredo%20svg/Tavola%20disegno%206.svg"
+         },
+         {
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/f993d6f5631c86400250bfd7932c9617069a6a52/Arredo%20svg/Tavola%20disegno%207.svg"
+         },
+         {
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/f993d6f5631c86400250bfd7932c9617069a6a52/Arredo%20svg/Tavola%20disegno%208.svg"
+         }
+      ],
+      "description":"Tree wood is a furniture product, which focuses on the theme of sustainability. Technologies and functions are linked through a game of geometric shapes and different wood essences to return a piece of furniture suitable for everyone. The product's name represents the relationship between three wooden elements of different types and origins, which are identified as predominant essences in the product itself. Tree wood, in addition to the function of a coat hanger and mirror, is characterized as a pocket-emptier shelf, which also supports a wireless charger.",
+      "shortDescription":"This product is designed for easy living. It stands for the modernity of being entirely convertible. It can be adapted to various needs, for people always on the go and in constant evolution.",
+      "imageNameFront":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%202%20.svg?token=ATJMFNUCL6DC5WRYCHMFKGDEK6ZWY",
+      "imageNameBack":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%202b.svg?token=ATJMFNQD2VSF7YB2U3AHIYLEK6ZYE"
+   },
+   {
+      "key":"project3",
+      "name":"Connections",
+      "subtitle":"retail",
+      "bannerImage":"",
+      "locations":[
+         
+      ],
+      "informations":[
+         
+      ],
+      "images":[
+         
+      ],
+      "description":"",
+      "imageNameFront":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%203.svg?token=ATJMFNXMHAVQ6DYAQ5UJQBDEK6ZZK",
+      "imageNameBack":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%203b.svg?token=ATJMFNUVQEAR7UIMXEYK3UDEK6Z26"
+   },
+   {
+      "key":"project4",
+      "name":"Grid's Shadows",
+      "subtitle":"office",
+      "bannerImage":"",
+      "locations":[
+         
+      ],
+      "informations":[
+         
+      ],
+      "images":[
+         
+      ],
+      "description":"",
+      "imageNameFront":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%204.svg?token=ATJMFNRBQIF4CELJB63UAYDEK6Z4E",
+      "imageNameBack":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%204b.svg?token=ATJMFNW4EAELEWTA375QPODEK6Z5C"
+   },
+   {
+      "key":"project5",
+      "name":"Upstairs",
+      "subtitle":"boutique hotel",
+      "bannerImage":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/6b473999c05f1daa73038a68e49b76e314cbb187/Upstairs/Banner.svg",
+      "locations":[
+         
+      ],
+      "informations":[
+         
+      ],
+      "images":[
+         
+      ],
+      "description":"",
+      "imageNameFront":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%205.svg?token=ATJMFNSNHND4SHZNIGVZEL3EK6Z6G",
+      "imageNameBack":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%205b.svg?token=ATJMFNRIC3ADLXL6YMPJ4O3EK6Z7I"
+   },
+   {
+      "key":"project6",
+      "name":"Kitchen",
+      "subtitle":"apartment",
+      "bannerImage":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/5a61fc0f2583d0c969d99a68e04a61a280a43a87/KITCHEN/banner.svg",
+      "locations":[
+         
+      ],
+      "informations":[
+         {
+            "label":"Plan",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/a6c773f38c2afa36b4405f5c584f9c09933b7e67/KITCHEN/Planimetria.svg"
+         }
+      ],
+      "images":[
+         {
+            "label":"",
+            "description":"",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/bbb120fec3b741263de75821e2bf805d3007875a/KITCHEN/cucina%201.svg"
+         },
+         {
+            "label":"",
+            "description":"",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/c6a1f1802259a7a8f277ea5c624615573ba43d8b/KITCHEN/cucina%202.svg"
+         }
+      ],
+      "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rhoncus varius tellus, eu laoreet sem aliquet et. Sed viverra nunc vel metus rutrum, at iaculis felis dapibus. Nulla facilisi. Vestibulum eu pulvinar erat. Nam ullamcorper tellus vitae arcu mollis, eu laoreet dui rutrum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer vulputate pellentesque libero, in euismod eros dictum rhoncus. Nulla facilisi. Vestibulum commodo, neque at interdum pulvinar, justo turpis aliquet enim, et efficitur velit justo sed ex. Vestibulum sapien dolor, fringilla eget consectetur sagittis, fringilla a lectus. Donec non justo finibus, tincidunt felis sed, ultrices nunc. Nam vehicula, tellus id ullamcorper imperdiet, lectus massa bibendum ipsum, et pulvinar velit turpis sed ligula. Phasellus non diam egestas eros vestibulum cursus in ut felis. Aliquam placerat augue augue, quis rutrum risus eleifend in. Aliquam non nisl quis dolor fringilla gravida vitae et mi. Proin efficitur odio sit amet velit porta ullamcorper.",
+      "imageNameFront":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%206.svg?token=ATJMFNS2IY7O3HYUGDT7TRDEK62AI",
+      "imageNameBack":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%206b.svg?token=ATJMFNTI4JHFO5MKXHQPQADEK62BI"
+   }
 ]
