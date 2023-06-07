@@ -6,6 +6,7 @@ import PersonalPathPage2 from './Pages/PersonalPathPage2';
 import ProjectIndexPage from './Pages/ProjectIndexPage'
 import PersonalPathPageDetailsPage from './Pages/PersonalPathDetailsPage';
 import ProjectDetailInteriorPage from './Pages/ProjectDetailInteriorPage';
+import ProjectDetailThesisPage from './Pages/ProjectDetailThesisPage';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Route path="/personal-path-details" element={<PersonalPathPageDetailsPage />}></Route>
       <Route path="/project-index" element={<ProjectIndexPage />}></Route>
       <Route path="/project-detail-interior" element={<ProjectDetailInteriorPage />}></Route>
+      <Route path="/project-detail-thesis" element={<ProjectDetailThesisPage />}></Route>
     </Routes>
   </BrowserRouter>
   );

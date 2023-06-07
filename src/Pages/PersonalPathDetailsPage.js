@@ -20,7 +20,7 @@ function PersonalPathPageDetailsPage() {
     }
   return (
     <div style={{display : 'flex'}}>
-      <img src={arrowLeft} className='back-arrow' onClick={() => navigate('/personal-path')} alt="back arrow"/>
+      <img src={arrowLeft} className='back-arrow' onClick={backToPathPage} alt="back arrow"/>
       <div style={{width : '50%'}}>
         <div className='title'>
             <div className='vertical-center'>

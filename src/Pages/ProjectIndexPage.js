@@ -8,6 +8,14 @@ function ProjectIndexPage() {
     const navigate = useNavigate();
     const projects = projectsData;
 
+    const goToDetailPage = (projectKey) => {
+      if(projectKey === 'project5'){
+        navigate('/project-detail-thesis?projectKey=' + projectKey)
+      } else {
+        navigate('/project-detail-interior?projectKey=' + projectKey)
+      }
+    }
+
   return (
     <div>
       <div style={{display :'flex'}}>
@@ -20,7 +28,7 @@ function ProjectIndexPage() {
               <div style={{display : 'flex', justifyContent : 'center', marginTop : '30px'}}>
                 <img key={project.key} src={project.imageNameFront} width="50px" alt="project front"></img>
                 <div style={{display : 'flex', flexDirection : 'column', justifyContent : 'center', alignItems : 'center', marginTop : '0px', width : '8em', cursor : 'pointer'}} 
-                className='subtitle' onClick={() => navigate('/project-detail-interior?projectKey=' + project.key)}>
+                className='subtitle' onClick={() => goToDetailPage(project.key)}>
                     <div style={{fontSize : '18px'}}>{project.name}</div>
                     <div style={{fontSize : '12px'}}>{project.subtitle}</div>
                   </div>
