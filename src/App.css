@@ -134,6 +134,14 @@
   transform: translate(-50%, -50%);
 }
 
+.vertical-center-thats-me {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
 .vertical-center-loading {
   margin: 0;
   position: fixed;
@@ -146,7 +154,7 @@
   position: fixed;
   left: 46%;
   top : 50%;
-  transform: translate(-50%, -80%);
+  transform: translate(-50%, -65%);
 }
 
 .vertical-and-orizontal-center {

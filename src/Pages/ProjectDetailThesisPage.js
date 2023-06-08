@@ -52,12 +52,19 @@ function ProjectDetailThesisPage() {
         <div className='project-top-view-description'>
             <div>{selectedProject.topViewDescription}</div>
         </div>
+        <div style={{display : 'flex', justifyContent : 'center', margin : '25px 0px 25px 70px'}}>
+            <img src={selectedProject.animation} alt="animation gif" height="600px"/>
+        </div>
+        <div style={{display : 'flex', justifyContent : 'center', margin : '100px 0px'}}>
+            <img src={selectedProject.sezione} height="450px" alt="sezione img"/>
+            <img src={selectedProject.assonometria} height="450px" alt="assonometria img"/>
+        </div>
         <div style={{display : 'flex', justifyContent : 'center', margin : '50px 0px'}}>
             <img src={selectedProject.prospettoCompleto} height='550px' alt='prospetto completo img'/>
         </div>
         {selectedProject.images.length!==0?
         <Carousel 
-            style={{marginTop : '100px', height  : '750px'}} 
+            style={{marginTop : '100px', height  : '650px'}} 
             activeIndex={activeIndex} 
             onSelect={handleSelect} 
             interval={null} variant="dark" 
@@ -70,7 +77,7 @@ function ProjectDetailThesisPage() {
                         {item.label}
                     </div>
                     <div className="d-flex justify-content-center">
-                      <img src={item.image} alt="First slide" height="700px"/>
+                      <img src={item.image} alt="First slide" height="600px"/>
                     </div>
                   
                   <div className='carousel-description'>
