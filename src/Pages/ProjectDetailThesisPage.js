@@ -2,38 +2,25 @@ import { useNavigate } from 'react-router';
 import '../App.css';
 import arrowLeft from '../img/arrow-left.svg';
 import { useEffect, useState } from 'react';
-import projectsData from '../Data/projects.json';
 import Carousel from 'react-bootstrap/Carousel';
 import LoadingPage from './LoadingPage';
-import ingresso from '../img/INGRESSO.png';
-import divano from '../img/DIVANO ph 2.png';
-import studio1 from '../img/STUDIO1 ph.png'
+import data from '../Data/upstairs';
 
 function ProjectDetailThesisPage() {
     
     const navigate = useNavigate();
-    const projects = projectsData;
-    let [selectedProject, ] = useState(() => {
-        return projects.filter((project) => project.key === new URL(window.location.href).searchParams.get("projectKey"))[0]
-    });
+    let selectedProject = data;
     let [loading, setLoading] = useState(true);
     let [activeIndex, setActiveIndex] = useState(0);
-    let [activeIndex2, setActiveIndex2] = useState(0);
 
     useEffect(() => {
         setTimeout(() => {
             setLoading(false);
-            console.log("ACTIVE INDEX: ", activeIndex);
-            console.log("ACTIVE INDEX 2: ", activeIndex2);
         }, 2000)
     })
 
     const handleSelect = (selectedIndex, e) => {
         setActiveIndex(selectedIndex);
-      };
-
-    const handleSelect2 = (selectedIndex, e) => {
-        setActiveIndex2(selectedIndex);
       };
 
   return (
@@ -50,7 +37,7 @@ function ProjectDetailThesisPage() {
             {selectedProject.description}
         </div>
         <div style={{display : 'flex', justifyContent : 'center', margin : '100px 0px'}}>
-            <img style={{marginRight : '80px'}} src={selectedProject.locationImage} height="450px"/>
+            <img style={{marginRight : '80px'}} src={selectedProject.locationImage} height="450px" alt="location img"/>
             <div className='project-location-description'>{selectedProject.locationDescription}</div>
         </div>
         <div className='project-description'>
@@ -60,21 +47,21 @@ function ProjectDetailThesisPage() {
             <div style={{marginTop : '.5em'}}>150m<sup>2</sup> courtyard</div>
         </div>
         <div style={{display : 'flex', justifyContent : 'center', margin : '50px 0px'}}>
-            <img src={selectedProject.topView} height='450px'/>
+            <img src={selectedProject.topView} height='450px' alt='top view img'/>
         </div>
         <div className='project-top-view-description'>
             <div>{selectedProject.topViewDescription}</div>
         </div>
         <div style={{display : 'flex', justifyContent : 'center', margin : '50px 0px'}}>
-            <img src={selectedProject.prospettoCompleto} height='550px'/>
+            <img src={selectedProject.prospettoCompleto} height='550px' alt='prospetto completo img'/>
         </div>
         {selectedProject.images.length!==0?
         <Carousel 
             style={{marginTop : '100px', height  : '750px'}} 
-            activeIndex={activeIndex2} 
-            onSelect={handleSelect2} 
+            activeIndex={activeIndex} 
+            onSelect={handleSelect} 
             interval={null} variant="dark" 
-            className={`${selectedProject.images.length===1 ? "carousel-no-arrow" : (activeIndex2 === 0 ? "carousel-no-left-arrow" : (activeIndex2 === selectedProject.images.length - 1 ? "carousel-no-right-arrow" : ""))}`}>
+            className={`${selectedProject.images.length===1 ? "carousel-no-arrow" : (activeIndex === 0 ? "carousel-no-left-arrow" : (activeIndex === selectedProject.images.length - 1 ? "carousel-no-right-arrow" : ""))}`}>
         {
             selectedProject.images.map((item) => {
                 return(
