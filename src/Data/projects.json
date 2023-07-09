@@ -52,7 +52,7 @@
             "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/main/side%20to%20side/Bagno%202.png"
          }
       ],
-      "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rhoncus varius tellus, eu laoreet sem aliquet et. Sed viverra nunc vel metus rutrum, at iaculis felis dapibus. Nulla facilisi. Vestibulum eu pulvinar erat. Nam ullamcorper tellus vitae arcu mollis, eu laoreet dui rutrum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer vulputate pellentesque libero, in euismod eros dictum rhoncus. Nulla facilisi. Vestibulum commodo, neque at interdum pulvinar, justo turpis aliquet enim, et efficitur velit justo sed ex. Vestibulum sapien dolor, fringilla eget consectetur sagittis, fringilla a lectus. Donec non justo finibus, tincidunt felis sed, ultrices nunc. Nam vehicula, tellus id ullamcorper imperdiet, lectus massa bibendum ipsum, et pulvinar velit turpis sed ligula. Phasellus non diam egestas eros vestibulum cursus in ut felis. Aliquam placerat augue augue, quis rutrum risus eleifend in. Aliquam non nisl quis dolor fringilla gravida vitae et mi. Proin efficitur odio sit amet velit porta ullamcorper.",
+      "description":"An apartment for a 5 components' family: a couple and 3 twins. I decided to change the previous layout of the apartment, to realize a large open space connecting the two opposites sides of the house, to provide light access to the entire living. The area also acts as a divider among the parents-childrens’ sleeping rooms. Hence the title of the project. All the rooms are characterized by strong colors that reflect the playful soul of the family.",
       "imageNameFront":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%201.svg?token=ATJMFNVMZLG4NYZ3HZXA3NTEK6ZOQ",
       "imageNameBack":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%201b.svg?token=ATJMFNRKCVU4LOUNVSHXIC3EK6ZTO"
    },
@@ -108,17 +108,31 @@
       "key":"project3",
       "name":"Connections",
       "subtitle":"retail",
-      "bannerImage":"",
+      "bannerImage":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/bb4b5299c598d77306f6364a55d0f107459b1339/Arredo%20svg/Tavola%20disegno%202.svg",
       "locations":[
          
       ],
       "informations":[
-         
+         {
+            "label":"Location: Castello di Monesiglio, CN",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/df32fbf7b5d779b87a9c6795327a8865428e69c5/Monesiglio/location.svg"
+         } 
       ],
       "images":[
-         
+         {
+            "label":"",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/caac7d54987bbd03a146f4dad612137161dd2100/Monesiglio/Tavola%20disegno%202.svg"
+         },
+         {
+            "label":"",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/caac7d54987bbd03a146f4dad612137161dd2100/Monesiglio/Tavola%20disegno%202%20copia.svg"
+         },
+         {
+            "label":"",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/caac7d54987bbd03a146f4dad612137161dd2100/Monesiglio/Tavola%20disegno%202%20copia%202.svg"
+         }
       ],
-      "description":"",
+      "description":"An apartment for a 5 components' family: a couple and 3 twins. I decided to change the previous layout of the apartment, to realize a large open space connecting the two opposites sides of the house, to provide light access to the entire living. The area also acts as a divider among the parents-childrens’ sleeping rooms. Hence the title of the project. All the rooms are characterized by strong colors that reflect the playful soul of the family.",
       "imageNameFront":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%203.svg?token=ATJMFNXMHAVQ6DYAQ5UJQBDEK6ZZK",
       "imageNameBack":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%203b.svg?token=ATJMFNUVQEAR7UIMXEYK3UDEK6Z26"
    },
