@@ -39,15 +39,11 @@ function ProjectIndexPage() {
         }
       </div>
       </div>
-      <div style={{marginBottom : '-70px', width : '50%', marginTop : '40px', display : 'flex', flexDirection : 'column', justifyContent : 'space-between'}}>
+      <div style={{ width : '50%', marginTop : '100px', display : 'flex'}}>
         <div>
           <span className='small-title'>These are</span> <br></br>
           <span className='title'>my</span> <br></br>
           <span className='title'>projects</span> <br></br>
-        </div>
-        <div>
-          <span className='small-title'>and they don't have</span> <br></br>
-          <span className='small-title'>a specific order</span>
         </div>
       </div>
     </div>
