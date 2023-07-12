@@ -21,27 +21,27 @@ const data =   {
     "images":[
        {
           "label":"",
-          "description":"Ingresso",
+          "description":"Lobby",
           "image": ingresso
        },
        {
           "label":"",
-          "description":"Studio 1",
+          "description":"First studio",
           "image": studio1
        },
        {
           "label":"",
-          "description":"Studio 2",
+          "description":"Second studio",
           "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/main/Upstairs/render/studio3.png"
        },
        {
           "label":"",
-          "description":"Divano",
+          "description":"Couch",
           "image": divano
        },
        {
           "label":"",
-          "description":"Cucina",
+          "description":"Kitchen",
           "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/main/Upstairs/render/andre%20cucina.jpg"
        },
        {
@@ -51,17 +51,17 @@ const data =   {
        },
        {
           "label":"",
-          "description":"Bagno",
+          "description":"Bathroom",
           "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/main/Upstairs/render/andre%20bago%201.jpg.png"
        },
        {
           "label":"",
-          "description":"Camera",
+          "description":"Bedroom",
           "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/main/Upstairs/render/camera%204.png"
        },
        {
           "label":"",
-          "description":"Vasca",
+          "description":"Bathtub",
           "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/main/Upstairs/render/andre%20vasca.jpg"
        }
     ],

@@ -132,7 +132,7 @@
             "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/caac7d54987bbd03a146f4dad612137161dd2100/Monesiglio/Tavola%20disegno%202%20copia%202.svg"
          }
       ],
-      "description":"An apartment for a 5 components' family: a couple and 3 twins. I decided to change the previous layout of the apartment, to realize a large open space connecting the two opposites sides of the house, to provide light access to the entire living. The area also acts as a divider among the parents-childrens’ sleeping rooms. Hence the title of the project. All the rooms are characterized by strong colors that reflect the playful soul of the family.",
+      "description":"For this project we are located inside the Castle of Monesiglio, in the province of Cuneo. The request of the clients was to design the layout of the area in front of the temporary exhibition halls. The idea was not to dedicate myself only to the internal environment but to go and create brightly colored cones that would attract the attention of visitors and invite them to enter. With the same color, similar to blue, a self-supporting structure was created inside to serve as a bookshop. A peculiarity of the latter is the presence of solids and voids that play with the beams of light coming from the windows of the castle.",
       "imageNameFront":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%203.svg?token=ATJMFNXMHAVQ6DYAQ5UJQBDEK6ZZK",
       "imageNameBack":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%203b.svg?token=ATJMFNUVQEAR7UIMXEYK3UDEK6Z26"
    },
@@ -170,27 +170,27 @@
       "images":[
          {
             "label":"",
-            "description":"Ingresso",
+            "description":"Lobby",
             "image": "/static/media/INGRESSO.f6e20aa2d1551f0ece02.png"
          },
          {
             "label":"",
-            "description":"Studio 1",
+            "description":"First studio",
             "image": "/static/media/STUDIO1 ph.20e3b7f47db62ae67baf.png"
          },
          {
             "label":"",
-            "description":"Studio 2",
+            "description":"Second studio",
             "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/main/Upstairs/render/studio3.png"
          },
          {
             "label":"",
-            "description":"Divano",
+            "description":"Couch",
             "image": "/static/media/DIVANO ph 2.2a21479b879efad04767.png"
          },
          {
             "label":"",
-            "description":"Cucina",
+            "description":"Kitchen",
             "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/main/Upstairs/render/andre%20cucina.jpg"
          },
          {
@@ -200,17 +200,17 @@
          },
          {
             "label":"",
-            "description":"Bagno",
+            "description":"Bathroom",
             "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/main/Upstairs/render/andre%20bago%201.jpg.png"
          },
          {
-            "label":"",
-            "description":"Camera",
+            "label":"Bedroom",
+            "description":"",
             "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/main/Upstairs/render/camera%204.png"
          },
          {
             "label":"",
-            "description":"Vasca",
+            "description":"Bathtub",
             "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/main/Upstairs/render/andre%20vasca.jpg"
          }
       ],
@@ -247,7 +247,7 @@
             "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/c6a1f1802259a7a8f277ea5c624615573ba43d8b/KITCHEN/cucina%202.svg"
          }
       ],
-      "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rhoncus varius tellus, eu laoreet sem aliquet et. Sed viverra nunc vel metus rutrum, at iaculis felis dapibus. Nulla facilisi. Vestibulum eu pulvinar erat. Nam ullamcorper tellus vitae arcu mollis, eu laoreet dui rutrum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer vulputate pellentesque libero, in euismod eros dictum rhoncus. Nulla facilisi. Vestibulum commodo, neque at interdum pulvinar, justo turpis aliquet enim, et efficitur velit justo sed ex. Vestibulum sapien dolor, fringilla eget consectetur sagittis, fringilla a lectus. Donec non justo finibus, tincidunt felis sed, ultrices nunc. Nam vehicula, tellus id ullamcorper imperdiet, lectus massa bibendum ipsum, et pulvinar velit turpis sed ligula. Phasellus non diam egestas eros vestibulum cursus in ut felis. Aliquam placerat augue augue, quis rutrum risus eleifend in. Aliquam non nisl quis dolor fringilla gravida vitae et mi. Proin efficitur odio sit amet velit porta ullamcorper.",
+      "description":"We are inside a large kitchen with two equipped walls. The family, lovers of clean lines, wanted to play with unconventional chromatic tones. The main feature of the kitchen is in fact its colours, first of all green, accompanied by the midnight blue Fenix ​​of the top and the small red details, such as the supports of the shelves or the applique. To give character then we find the two perforated panels, which act as boiserie, and which contrast with the squared shapes of the powder-colored tiles.",
       "imageNameFront":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%206.svg?token=ATJMFNS2IY7O3HYUGDT7TRDEK62AI",
       "imageNameBack":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%206b.svg?token=ATJMFNTI4JHFO5MKXHQPQADEK62BI"
    }
