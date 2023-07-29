@@ -42,7 +42,6 @@ function ProjectDetailThesisPage() {
         </div>
         <div className='project-description'>
             <div>XI-XII century</div>
-            <div style={{marginTop : '.5em'}}>diameter:31m</div>
             <div style={{marginTop : '.5em'}}>600m<sup>2</sup> inside</div>
             <div style={{marginTop : '.5em'}}>150m<sup>2</sup> courtyard</div>
         </div>

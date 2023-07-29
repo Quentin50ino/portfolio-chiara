@@ -16,7 +16,7 @@ function LandingPage() {
         <div className='title' >That's &nbsp; me <span className='title blob red' onClick={() => navigate('/personal-path')}>*</span></div>
       </div>
       <div className='subtitle' style={{marginTop : '200px', padding : '0px 420px'}}>
-        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rhoncus varius tellus, eu laoreet sem aliquet et. Sed viverra nunc vel metus rutrum, at iaculis felis dapibus. Nulla facilisi.</span>
+        <span>I particularly love the eclectic style, with combinations of bright colors <br></br> and combinations of tiles in bright and particular tones.<br></br> So, if you’re a person who loves the nuances of grilling, <br></br> we probably can’t be friends.</span>
       </div>
       </div>
     </div>

@@ -83,7 +83,7 @@ function ProjectDetailInteriorPage() {
         </div>:null}
         {selectedProject.images.length!==0?
         <Carousel 
-            style={{marginTop : '100px', height  : '750px'}} 
+            style={{marginTop : '50px', height  : '750px'}} 
             activeIndex={activeIndex2} 
             onSelect={handleSelect2} 
             interval={null} variant="dark" 

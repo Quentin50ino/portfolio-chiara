@@ -26,6 +26,32 @@
   src: url("./Fonts/itc-avant-garde-gothic-lt-book.ttf");
 }
 
+@font-face {
+  font-family: "HungryCharlie";
+  src: url("./Fonts/HungryCharlie-Serif.ttf");
+}
+
+.chez{
+  font-family : "HungryCharlie";
+  font-size : 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.chez .red{
+  color : red;
+}
+
+.flipH {
+  transform: scale(-1, 1);
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+
 .project-title{
   font-family: 'AvantGardeGothicBold';
   font-size: 50px;
@@ -56,7 +82,7 @@
   font-family: 'AvantGardeGothicRegular';
   font-size: 20px;
   line-height: 1em;
-  margin-top : 60px;
+  margin-top : 100px;
   padding : 0px 600px;
 }
 
@@ -172,7 +198,7 @@
 
 .subtitle{
   font-family: 'AvantGardeGothicRegular';
-  font-size: 20px;
+  font-size: 18px;
   margin-top : 2em;
   text-align: center;
 }
