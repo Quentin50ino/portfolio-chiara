@@ -34,7 +34,7 @@ function PersonalPathPageDetailsPage() {
       </div>
       <div style={{width : '50%'}}>
         <div>
-        <div style={{display : 'flex', justifyContent : 'center', marginTop : '100px'}}>
+        <div style={{display : 'flex', justifyContent : 'center', marginTop : '150px'}}>
             <img id="pattern1" src={location.state.pattern} width="70px" alt="pattern" className='pattern-path-details-left'></img>
             <div style={{display : 'flex', justifyContent : 'center', alignItems : 'center', marginTop : '0px', width : '6em',cursor : "pointer"}} className='subtitle' onClick={backToPathPage}>{location.state.title}</div>
             <img id="pattern2" src={location.state.patternb} width="70px" alt="pattern b" className='pattern-path-details-right'></img>
@@ -44,7 +44,7 @@ function PersonalPathPageDetailsPage() {
                 {
                     location.state.bulletList.map((item) => {
                         return(
-                            <div style={{padding : '0px 150px'}}>
+                            <div style={{padding : '0px 150px', textAlign :'justify'}}>
                                 <div>{item}</div><br></br>
                             </div>
                         )

@@ -44,12 +44,20 @@
 }
 
 .flipH {
-  transform: scale(-1, 1);
-  -moz-transform: scale(-1, 1);
-  -webkit-transform: scale(-1, 1);
-  -o-transform: scale(-1, 1);
-  -ms-transform: scale(-1, 1);
-  transform: scale(-1, 1);
+  animation: mirrorText 2.5s forwards;
+}
+
+@keyframes mirrorText {
+  from {
+    
+  }
+  to {
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+  }
 }
 
 .project-title{
@@ -74,8 +82,8 @@
   font-size: 20px;
   line-height: 1em;
   margin-top : 60px;
-  padding : 0px 400px;
-  text-align: center;
+  padding : 0px 450px;
+  text-align: justify;
 }
 
 .project-short-description{
@@ -160,6 +168,13 @@
   transform: translate(-50%, -50%);
 }
 
+.vertical-center-second-column {
+  position: fixed;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+}
+
 .vertical-center-thats-me {
   margin: 0;
   position: absolute;
@@ -178,7 +193,7 @@
 
 .thats-me-center {
   position: fixed;
-  left: 46%;
+  left: 50%;
   top : 50%;
   transform: translate(-50%, -65%);
 }

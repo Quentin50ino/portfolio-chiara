@@ -33,14 +33,14 @@ function ProjectDetailThesisPage() {
         <div className='project-title'>
             {selectedProject.name}
         </div>
-        <div className='project-description'>
+        <div className='project-label' style={{marginTop : '50px'}}>
             {selectedProject.description}
         </div>
         <div style={{display : 'flex', justifyContent : 'center', margin : '100px 0px'}}>
             <img style={{marginRight : '80px'}} src={selectedProject.locationImage} height="450px" alt="location img"/>
             <div className='project-location-description'>{selectedProject.locationDescription}</div>
         </div>
-        <div className='project-description'>
+        <div className='project-description' style={{textAlign : 'center'}}>
             <div>XI-XII century</div>
             <div style={{marginTop : '.5em'}}>600m<sup>2</sup> inside</div>
             <div style={{marginTop : '.5em'}}>150m<sup>2</sup> courtyard</div>
@@ -55,8 +55,7 @@ function ProjectDetailThesisPage() {
             <img src={selectedProject.animation} alt="animation gif" height="600px"/>
         </div>
         <div style={{display : 'flex', justifyContent : 'center', margin : '100px 0px'}}>
-            <img src={selectedProject.sezione} height="450px" alt="sezione img"/>
-            <img src={selectedProject.assonometria} height="450px" alt="assonometria img"/>
+            <img src={selectedProject.assonometria} height="500px" alt="assonometria img"/>
         </div>
         <div style={{display : 'flex', justifyContent : 'center', margin : '50px 0px'}}>
             <img src={selectedProject.prospettoCompleto} height='550px' alt='prospetto completo img'/>

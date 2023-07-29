@@ -43,8 +43,7 @@ function ProjectDetailInteriorPage() {
         <div className='project-title'>
             {selectedProject.name}
         </div>
-        <div className='project-description'>
-            {selectedProject.description}
+        <div className='project-description' dangerouslySetInnerHTML={{ __html: selectedProject.description }}>
         </div>
         {selectedProject.locations.length!==0?<Carousel interval={null} variant="dark" style={{marginTop : '100px'}} className={`${selectedProject.locations.length===1 ? "carousel-no-arrow" : (activeIndex === 0 ? "carousel-no-left-arrow" : (activeIndex === selectedProject.informations.length - 1 ? "carousel-no-right-arrow" : ""))}`}>
         {

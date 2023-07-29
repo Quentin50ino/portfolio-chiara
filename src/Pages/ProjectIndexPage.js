@@ -19,8 +19,8 @@ function ProjectIndexPage() {
   return (
     <div>
       <div style={{display :'flex'}}>
-      <div style={{width : '50%'}}>
-        <img src={arrowLeft} className='back-arrow' onClick={() => navigate('/personal-path')} alt="back arrow"/>
+      <img src={arrowLeft} className='back-arrow' onClick={() => navigate('/personal-path')} alt="back arrow"/>
+      <div style={{width : '50%'}} className='vertical-center'>
         <div style={{marginTop : '20px'}}>
         {
           projects.map((project) => {
@@ -40,7 +40,7 @@ function ProjectIndexPage() {
       </div>
       </div>
       <div style={{ width : '50%', marginTop : '100px', display : 'flex'}}>
-        <div>
+        <div className='vertical-center-second-column'>
           <span className='small-title'>These are</span> <br></br>
           <span className='title'>my</span> <br></br>
           <span className='title'>projects</span> <br></br>

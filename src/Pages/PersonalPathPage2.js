@@ -25,14 +25,13 @@ function PersonalPathPage2() {
     let bulletListExperience = [
       '2017 - Tourist guide at the GAM - gallery of modern art of Palazzo Pitti in Florence.',
       '2017 - Tourist guide at the museum of Villa Bardini in Florence.',
-      '2020 - Internship at the Serragli130 archi of Florence.',
+      '2020 - Internship at the Serragli130 archi studio of Florence.',
       '2021 - Internship at Amlab design studio',
-      '2022 - Beginning of the freelance collaboration with Aifaicasa studio in Turin'
+      '2022 / present - Freelance collaboration with Aifaicasa studio in Turin'
     ];
     let bulletListExtras = [
-      'In the 2015 and 2017 I attended English language courses in Brighton and Oxford.',
-      'During those experiences, I added to the standard course a module focused on visits to local companies, job opportunities’ search via web and job interviews’ preparation.',
-      'I also attended a National Dance Council of America affiliated ballet school for 14 years, passing five exams to qualify as a teacher.' 
+      '2015 - 2017 English language courses in Brighton and Oxford.',
+      '14 years as classic dancer in affiliation of the National Dance Council of America Ballet School'
     ];
     let bulletListLanguages = [
       'Italian _ native language',
@@ -65,6 +64,7 @@ function PersonalPathPage2() {
         </div>
       </div>
       <div className='personal-path-page-block2'>
+        <div className='vertical-center-second-column'>
         <div style={{display : 'flex', justifyContent : 'center', marginTop : '100px'}}>
             <img src={pattern1} width="70px" alt="pattern 1"></img>
             <div onClick={() => openPersonalPath('education', pattern1, pattern1b, bulletListEducation)} style={{display : 'flex', justifyContent : 'center', alignItems : 'center', marginTop : '0px', width : '6em', cursor : 'pointer'}} className='subtitle'>education</div>
@@ -89,6 +89,7 @@ function PersonalPathPage2() {
             <img src={pattern5} width="70px" alt="pattern 5"></img>
             <div style={{display : 'flex', justifyContent : 'center', alignItems : 'center', marginTop : '0px', width : '6em', cursor : 'pointer'}} className='subtitle' onClick={() => navigate('/project-index')}>projects</div>
             <img src={pattern5b} width="70px" alt="pattern 5 b"></img>
+        </div>
         </div>
       </div>
     </div>
