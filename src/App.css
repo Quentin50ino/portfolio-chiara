@@ -47,6 +47,12 @@
   animation: mirrorText 2.5s forwards;
 }
 
+.vertical-aligned{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 @keyframes mirrorText {
   from {
     
@@ -153,6 +159,10 @@
   font-family: 'AvantGardeGothicBold';
   font-size: 100px;
   line-height: 1em;
+}
+
+.title-row{
+  text-align : center;
 }
 
 .title-center{
