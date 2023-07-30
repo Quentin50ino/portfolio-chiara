@@ -5,6 +5,7 @@ import { useEffect, useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import LoadingPage from './LoadingPage';
 import data from '../Data/upstairs';
+import asterisco from '../img/asterisco_icona.png';
 
 function ProjectDetailThesisPage() {
     
@@ -32,6 +33,12 @@ function ProjectDetailThesisPage() {
         </div>
         <div className='project-title'>
             {selectedProject.name}
+            <sup>
+                <div className='chez-sup'>
+                    <img src={asterisco} alt="asterisco" width="10px" height="10px"/>&nbsp;Ch<div className='flipHStatic'>&nbsp;Ze</div>
+                    <img src={asterisco} alt="asterisco" width="10px" height="10px"/>
+                </div>
+            </sup>
         </div>
         <div className='project-label' style={{marginTop : '50px'}}>
             {selectedProject.description}

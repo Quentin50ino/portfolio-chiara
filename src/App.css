@@ -43,8 +43,26 @@
   color : red;
 }
 
+.chez-sup{
+  font-family : "HungryCharlie";
+  font-size : 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
 .flipH {
   animation: mirrorText 2.5s forwards;
+}
+
+.flipHStatic{
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
 }
 
 .vertical-aligned{

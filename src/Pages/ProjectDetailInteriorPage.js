@@ -5,6 +5,7 @@ import { useEffect, useState } from 'react';
 import projectsData from '../Data/projects.json';
 import Carousel from 'react-bootstrap/Carousel';
 import LoadingPage from './LoadingPage';
+import asterisco from '../img/asterisco_icona.png'
 
 function ProjectDetailInteriorPage() {
     
@@ -42,6 +43,12 @@ function ProjectDetailInteriorPage() {
         </div>
         <div className='project-title'>
             {selectedProject.name}
+            <sup>
+                <div className='chez-sup'>
+                    <img src={asterisco} alt="asterisco" width="10px" height="10px"/>&nbsp;Ch<div className='flipHStatic'>&nbsp;Ze</div>
+                    <img src={asterisco} alt="asterisco" width="10px" height="10px"/>
+                </div>
+            </sup>
         </div>
         <div className='project-description' dangerouslySetInnerHTML={{ __html: selectedProject.description }}>
         </div>
