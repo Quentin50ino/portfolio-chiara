@@ -36,7 +36,7 @@ function ProjectDetailThesisPage() {
         <div className='project-label' style={{marginTop : '50px'}}>
             {selectedProject.description}
         </div>
-        <div style={{display : 'flex', justifyContent : 'center', margin : '100px 0px'}}>
+        <div style={{display : 'flex', justifyContent : 'center', margin : '100px 0px 50px 0px'}}>
             <img style={{marginRight : '80px'}} src={selectedProject.locationImage} height="450px" alt="location img"/>
             <div className='project-location-description'>{selectedProject.locationDescription}</div>
         </div>
@@ -50,11 +50,16 @@ function ProjectDetailThesisPage() {
         </div>
         <div className='project-top-view-description'>
             <div>{selectedProject.topViewDescription}</div>
+            <br></br>
+            <div>{selectedProject.gridsDescription}</div>
         </div>
         <div style={{display : 'flex', justifyContent : 'center', margin : '25px 0px 25px 70px'}}>
             <img src={selectedProject.animation} alt="animation gif" height="600px"/>
         </div>
-        <div style={{display : 'flex', justifyContent : 'center', margin : '100px 0px'}}>
+        <div className='project-top-view-description'>
+            <div>{selectedProject.loversDescription}</div>
+        </div>
+        <div style={{display : 'flex', justifyContent : 'center', margin : '50px 0px 100px 0px'}}>
             <img src={selectedProject.assonometria} height="500px" alt="assonometria img"/>
         </div>
         <div style={{display : 'flex', justifyContent : 'center', margin : '50px 0px'}}>

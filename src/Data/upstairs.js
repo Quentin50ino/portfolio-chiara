@@ -26,12 +26,12 @@ const data =   {
        },
        {
           "label":"",
-          "description":"First studio",
+          "description":"Studio",
           "image": studio1
        },
        {
           "label":"",
-          "description":"Second studio",
+          "description":"Studio",
           "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/main/Upstairs/render/studio3.png"
        },
        {
@@ -69,6 +69,8 @@ const data =   {
     "topViewDescription" : "In the tenth century the incastellamento spread as a system of defense and protection against the attack of enemies, but also to unite the curtis, the agricultural company of the lord to the houses of the people who worked there.",
     "prospettoCompleto" : "https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/main/Upstairs/Prospetto%20completo.png",
     "description":"Castel di Luco - Ascoli - Italy",
+    "gridsDescription": "My thesis is about the project of transforming what used to be the guardian's house into a boutique hotel. It all starts with a grid that I superimposed on the plan and from which came the 8 platforms that characterize the space.",
+    "loversDescription":"It is a suite for couples. The idea behind it is to create a parallelism between the verticality of the structure and the bond between lovers. In fact, each time you go up a floor the space, in combination with the furniture, lighting and atmosphere reflects the increasing intimacy of the couple.",
     "imageNameFront":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%205.svg?token=ATJMFNSNHND4SHZNIGVZEL3EK6Z6G",
     "imageNameBack":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%205b.svg?token=ATJMFNRIC3ADLXL6YMPJ4O3EK6Z7I"
  }
