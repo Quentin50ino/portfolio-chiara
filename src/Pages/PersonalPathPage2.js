@@ -63,9 +63,8 @@ function PersonalPathPage2() {
             </div>
         </div>
       </div>
-      <div className='personal-path-page-block2'>
-        <div className='vertical-center-second-column'>
-        <div style={{display : 'flex', justifyContent : 'center', marginTop : '100px'}}>
+      <div className='personal-path-page-block2 vertical-center-second-column'>
+        <div style={{display : 'flex', justifyContent : 'center'}}>
             <img src={pattern1} width="70px" alt="pattern 1"></img>
             <div onClick={() => openPersonalPath('education', pattern1, pattern1b, bulletListEducation)} style={{display : 'flex', justifyContent : 'center', alignItems : 'center', marginTop : '0px', width : '6em', cursor : 'pointer'}} className='subtitle'>education</div>
             <img src={pattern1b} width="70px" alt="pattern 1 b"></img>
@@ -89,7 +88,6 @@ function PersonalPathPage2() {
             <img src={pattern5} width="70px" alt="pattern 5"></img>
             <div style={{display : 'flex', justifyContent : 'center', alignItems : 'center', marginTop : '0px', width : '6em', cursor : 'pointer'}} className='subtitle' onClick={() => navigate('/project-index')}>projects</div>
             <img src={pattern5b} width="70px" alt="pattern 5 b"></img>
-        </div>
         </div>
       </div>
     </div>

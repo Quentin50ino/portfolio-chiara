@@ -10,8 +10,7 @@ function HelloPage() {
     <div>
         <div className="align-center">
           <div style={{display : 'flex', justifyContent : 'center'}}>
-            <div className='title'><div className='title-row'>Hi, I'm</div> <div className='title-row'>Chiara</div> <div className='title-row'>Zeloni</div></div>
-            <div style={{display : 'flex', flexDirection : 'column', justifyContent : 'end'}} className='title blob red' onClick={() => navigate('/landing')}>*</div>
+            <div className='title'><div className='title-row'>Hi, I'm</div> <div className='title-row'>Chiara</div> <div className='title-row'>Zeloni<span style={{position : 'fixed'}} className='title blob red' onClick={() => navigate('/landing')}>*</span></div></div>
           </div>
             <div className='subtitle'>as known as 
             <span className='chez'>
