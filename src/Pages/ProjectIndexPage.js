@@ -18,9 +18,9 @@ function ProjectIndexPage() {
 
   return (
     <div>
-      <div style={{display :'flex'}}>
       <img src={arrowLeft} className='back-arrow' onClick={() => navigate('/personal-path')} alt="back arrow"/>
-      <div style={{width : '50%'}} className='vertical-center'>
+      <div className='project-index-page-container'>
+      <div className='vertical-center project-index-page-block1'>
         <div style={{marginTop : '20px'}}>
         {
           projects.map((project) => {
@@ -39,11 +39,14 @@ function ProjectIndexPage() {
         }
       </div>
       </div>
-      <div style={{ width : '50%', marginTop : '100px', display : 'flex'}}>
-        <div className='vertical-center-second-column'>
+      <div className='project-index-page-block2'>
+        <div className='vertical-center-second-column-index d-none d-sm-block d-sm-none d-md-block'>
           <span className='small-title'>These are</span> <br></br>
           <span className='title'>my</span> <br></br>
           <span className='title'>projects</span> <br></br>
+        </div>
+        <div className='vertical-center-second-column-index d-md-none d-lg-block d-lg-none d-xl-block d-xl-none'>
+          <span className='title'>My projects</span>
         </div>
       </div>
     </div>

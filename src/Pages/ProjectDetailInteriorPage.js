@@ -38,8 +38,8 @@ function ProjectDetailInteriorPage() {
     <div>
     {!loading?<div>
         <img src={arrowLeft} className='back-arrow' onClick={() => navigate('/project-index')} alt="back arrow"/>
-        <div style={{display : 'flex', justifyContent : 'center'}}>
-            {selectedProject.bannerImage?<img src={selectedProject.bannerImage} width="800px" alt="banner"/>:null}
+        <div style={{display : 'flex', justifyContent : 'center'}} >
+            {selectedProject.bannerImage?<img src={selectedProject.bannerImage} className='col-xxl-6 col-xl-6 col-lg-6 col-sm-10 col-10' alt="banner"/>:null}
         </div>
         <div className='project-title'>
             {selectedProject.name}
@@ -50,13 +50,14 @@ function ProjectDetailInteriorPage() {
                 </div>
             </sup>
         </div>
-        <div className='project-description' dangerouslySetInnerHTML={{ __html: selectedProject.description }}>
+        <div style={{display : 'flex', justifyContent : 'center'}}>
+            <div className='project-description col-xxl-6 col-xl-6 col-lg-6 col-sm-10 col-10' dangerouslySetInnerHTML={{ __html: selectedProject.description }}></div>
         </div>
         {selectedProject.locations.length!==0?<Carousel interval={null} variant="dark" style={{marginTop : '100px'}} className={`${selectedProject.locations.length===1 ? "carousel-no-arrow" : (activeIndex === 0 ? "carousel-no-left-arrow" : (activeIndex === selectedProject.informations.length - 1 ? "carousel-no-right-arrow" : ""))}`}>
         {
             selectedProject.locations.map((item) => {
                 return(
-                <Carousel.Item >
+                <Carousel.Item>
                     <div className='project-label'>
                         {item.label}
                     </div>
@@ -84,12 +85,14 @@ function ProjectDetailInteriorPage() {
             })
         }
         </Carousel>:null}
-        {selectedProject.shortDescription?<div className='project-short-description'>
+        {selectedProject.shortDescription?
+        <div style={{display : 'flex', justifyContent : 'center'}}>
+        <div className='project-short-description col-xxl-4 col-xl-4 col-lg-4 col-sm-10 col-10'>
             {selectedProject.shortDescription.toUpperCase()}
-        </div>:null}
+        </div></div>:null}
         {selectedProject.images.length!==0?
         <Carousel 
-            style={{marginTop : '50px', height  : '750px'}} 
+            style={{marginTop : '50px'}} 
             activeIndex={activeIndex2} 
             onSelect={handleSelect2} 
             interval={null} variant="dark" 
@@ -102,7 +105,7 @@ function ProjectDetailInteriorPage() {
                         {item.label}
                     </div>
                     <div className="d-flex justify-content-center">
-                      <img src={item.image} alt="First slide" height="700px"/>
+                      <img src={item.image} alt="First slide" className='col-xl-10 col-12'/>
                     </div>
                   
                   <div className='carousel-description'>

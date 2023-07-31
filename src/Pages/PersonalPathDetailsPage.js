@@ -19,9 +19,9 @@ function PersonalPathPageDetailsPage() {
         }, 750)
     }
   return (
-    <div style={{display : 'flex'}}>
+    <div className='personal-path-page-container'>
       <img src={arrowLeft} className='back-arrow' onClick={backToPathPage} alt="back arrow"/>
-      <div style={{width : '50%'}}>
+      <div className='personal-path-page-block1'>
         <div className='title'>
             <div className='vertical-center'>
                 and this is <br></br>
@@ -32,9 +32,9 @@ function PersonalPathPageDetailsPage() {
             </div>
         </div>
       </div>
-      <div style={{width : '50%'}}>
+      <div className='personal-path-page-block2'>
         <div>
-        <div style={{display : 'flex', justifyContent : 'center', marginTop : '150px'}}>
+        <div className='selected-pattern-path-details'>
             <img id="pattern1" src={location.state.pattern} width="70px" alt="pattern" className='pattern-path-details-left'></img>
             <div style={{display : 'flex', justifyContent : 'center', alignItems : 'center', marginTop : '0px', width : '6em',cursor : "pointer"}} className='subtitle' onClick={backToPathPage}>{location.state.title}</div>
             <img id="pattern2" src={location.state.patternb} width="70px" alt="pattern b" className='pattern-path-details-right'></img>
@@ -44,7 +44,7 @@ function PersonalPathPageDetailsPage() {
                 {
                     location.state.bulletList.map((item) => {
                         return(
-                            <div style={{padding : '0px 150px', textAlign :'justify'}}>
+                            <div className='bullet-list-path-details'>
                                 <div>{item}</div><br></br>
                             </div>
                         )
