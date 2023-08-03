@@ -2,6 +2,7 @@ import { useNavigate } from 'react-router';
 import '../App.css';
 import arrowLeft from '../img/arrow-left.svg';
 import projectsData from '../Data/projects.json'
+import ContactsAlertComponent from '../Components/ContactsAlertComponent';
 
 function ProjectIndexPage() {
     
@@ -18,7 +19,10 @@ function ProjectIndexPage() {
 
   return (
     <div>
-      <img src={arrowLeft} className='back-arrow' onClick={() => navigate('/personal-path')} alt="back arrow"/>
+      <div className='d-flex flex-row justify-content-between'>
+        <img src={arrowLeft} className='back-arrow' onClick={() => navigate('/personal-path')} alt="back arrow"/>
+        <ContactsAlertComponent />
+      </div>
       <div className='project-index-page-container'>
       <div className='vertical-center project-index-page-block1'>
         <div style={{marginTop : '20px'}}>

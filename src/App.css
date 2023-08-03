@@ -265,6 +265,17 @@
   cursor : pointer;
 }
 
+.contacts-icon{
+  height: 40px;
+  margin-top : 20px;
+  margin-right : 20px;
+  cursor : pointer;
+}
+
+.contacts-icons{
+  margin-right : 1em;
+}
+
 .blob.red {
 	color : red;
 	animation: pulse-red 2s infinite;

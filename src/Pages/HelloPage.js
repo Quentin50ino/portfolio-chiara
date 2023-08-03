@@ -1,6 +1,7 @@
 import { useNavigate } from 'react-router';
 import '../App.css';
 import asterisco from '../img/asterisco_icona.png'
+import ContactsAlertComponent from '../Components/ContactsAlertComponent';
 
 function HelloPage() {
 
@@ -8,6 +9,9 @@ function HelloPage() {
 
   return (
     <div>
+          <div className='d-flex flex-row justify-content-end'>
+            <ContactsAlertComponent/>
+          </div>
         <div className="align-center">
           <div style={{display : 'flex', justifyContent : 'center'}}>
             <div className='title'><div className='title-row'>Hi, I'm</div> <div className='title-row'>Chiara</div> <div className='title-row'>Zeloni<span style={{position : 'fixed'}} className='title blob red' onClick={() => navigate('/landing')}>*</span></div></div>

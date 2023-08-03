@@ -2,6 +2,7 @@ import { useNavigate } from 'react-router';
 import '../App.css';
 import Copertina from '../img/Copertina.png';
 import arrowLeft from '../img/arrow-left.svg';
+import ContactsAlertComponent from '../Components/ContactsAlertComponent';
 
 function LandingPage() {
     
@@ -9,7 +10,10 @@ function LandingPage() {
 
   return (
     <div>
-      <img src={arrowLeft} className='back-arrow' onClick={() => navigate('/')} alt="back arrow"/>
+      <div className='d-flex flex-row justify-content-between'>
+        <img src={arrowLeft} className='back-arrow' onClick={() => navigate('/')} alt="back arrow"/>
+        <ContactsAlertComponent />
+      </div>
       <div className='vertical-and-orizontal-center'>
       <div className='orizontal-center'>
         <img className='thats-me-center' src={Copertina} height="380px" style={{marginRight : '100px'}} alt="that's me"/>
