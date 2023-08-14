@@ -7,7 +7,7 @@
       "locations":[
          {
             "label":"Location: Corso Dante 59 - Asti",
-            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/8869b017265d51bb9d6bf7069938eb888d297b31/side%20to%20side/Facciata.svg"
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/25c139c5353c4e23535f7470b1db6c8b80c9bca9/side%20to%20side/Facciata.svg"
          }
       ],
       "informations":[
@@ -138,17 +138,38 @@
    },
    {
       "key":"project4",
-      "name":"Grid's Shadows",
+      "name":"Double Face",
       "subtitle":"office",
       "bannerImage":"",
       "locations":[
-         
+         {
+            "label":"Location: ",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/2c427b6e140d03a8051ee8fcf5ab38841003fed4/Ufficio%20avvocati%20SVG/Tavola%20disegno%203.svg"
+         },
+         {
+            "label":"Location: ",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/25c139c5353c4e23535f7470b1db6c8b80c9bca9/Ufficio%20avvocati%20SVG/Tavola%20disegno%204.svg"
+         }
       ],
       "informations":[
          
       ],
       "images":[
-         
+         {
+            "label":"",
+            "description":"Meeting Room",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/92128919cd2c03c5b0a44218af75e945bb6684af/Ufficio%20avvocati%20SVG/Tavola%20disegno%201.svg"
+         },
+         {
+            "label":"",
+            "description":"Office",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/92128919cd2c03c5b0a44218af75e945bb6684af/Ufficio%20avvocati%20SVG/Tavola%20disegno%202.svg"
+         },
+         {
+            "label":"",
+            "description":"Kitchen",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/608cea23452b102666758a77e2c0f39b6ec72381/Ufficio%20avvocati%20SVG/cucina.svg"
+         }
       ],
       "description":"",
       "imageNameFront":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%204.svg?token=ATJMFNRBQIF4CELJB63UAYDEK6Z4E",

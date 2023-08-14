@@ -17,6 +17,7 @@ function ProjectDetailInteriorPage() {
     let [loading, setLoading] = useState(true);
     let [activeIndex, setActiveIndex] = useState(0);
     let [activeIndex2, setActiveIndex2] = useState(0);
+    let [activeIndex3, setActiveIndex3] = useState(0);
 
     useEffect(() => {
         setTimeout(() => {
@@ -32,6 +33,10 @@ function ProjectDetailInteriorPage() {
 
     const handleSelect2 = (selectedIndex, e) => {
         setActiveIndex2(selectedIndex);
+      };
+
+      const handleSelect3 = (selectedIndex, e) => {
+        setActiveIndex3(selectedIndex);
       };
 
   return (
@@ -53,7 +58,7 @@ function ProjectDetailInteriorPage() {
         <div style={{display : 'flex', justifyContent : 'center'}}>
             <div className='project-description col-xxl-6 col-xl-6 col-lg-6 col-sm-10 col-10' dangerouslySetInnerHTML={{ __html: selectedProject.description }}></div>
         </div>
-        {selectedProject.locations.length!==0?<Carousel interval={null} variant="dark" style={{marginTop : '100px'}} className={`${selectedProject.locations.length===1 ? "carousel-no-arrow" : (activeIndex === 0 ? "carousel-no-left-arrow" : (activeIndex === selectedProject.informations.length - 1 ? "carousel-no-right-arrow" : ""))}`}>
+        {selectedProject.locations.length!==0?<Carousel activeIndex={activeIndex3} onSelect={handleSelect3} interval={null} variant="dark" style={{marginTop : '100px'}} className={`${selectedProject.locations.length===1 ? "carousel-no-arrow" : (activeIndex3 === 0 ? "carousel-no-left-arrow" : (activeIndex3 === selectedProject.locations.length - 1 ? "carousel-no-right-arrow" : ""))}`}>
         {
             selectedProject.locations.map((item) => {
                 return(
@@ -62,7 +67,7 @@ function ProjectDetailInteriorPage() {
                         {item.label}
                     </div>
                     <div className="d-flex justify-content-center">
-                      <img src={item.image} alt="First slide" height="500px"/>
+                      <img src={item.image} alt="First slide" style={{marginTop : '50px'}}/>
                     </div>
                 </Carousel.Item>
              )
