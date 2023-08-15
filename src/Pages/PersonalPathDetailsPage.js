@@ -1,6 +1,7 @@
 import { useLocation, useNavigate } from 'react-router';
 import '../App.css';
 import { useState } from 'react';
+import ContactsAlertComponent from '../Components/ContactsAlertComponent';
 
 function PersonalPathPageDetailsPage() {
     
@@ -19,8 +20,12 @@ function PersonalPathPageDetailsPage() {
         }, 750)
     }
   return (
+    <>
+    <div className='d-flex flex-row justify-content-between'>
+        <img src={arrowLeft} className='back-arrow' onClick={backToPathPage} alt="back arrow"/>
+        <ContactsAlertComponent/>
+    </div>
     <div className='personal-path-page-container'>
-      <img src={arrowLeft} className='back-arrow' onClick={backToPathPage} alt="back arrow"/>
       <div className='personal-path-page-block1'>
         <div className='title'>
             <div className='vertical-center'>
@@ -55,6 +60,7 @@ function PersonalPathPageDetailsPage() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 
