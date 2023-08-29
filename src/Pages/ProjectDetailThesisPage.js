@@ -43,8 +43,8 @@ function ProjectDetailThesisPage() {
         <div className='project-label' style={{marginTop : '50px'}}>
             {selectedProject.description}
         </div>
-        <div style={{display : 'flex', justifyContent : 'center', margin : '100px 0px 50px 0px'}}>
-            <img style={{marginRight : '80px'}} src={selectedProject.locationImage} height="450px" alt="location img"/>
+        <div style={{display : 'flex', justifyContent : 'center', margin : '100px 0px 50px 0px'}} className='location-container'>
+            <img className='location-ascoli' src={selectedProject.locationImage} height="450px" alt="location img"/>
             <div className='project-location-description'>{selectedProject.locationDescription}</div>
         </div>
         <div className='project-description' style={{textAlign : 'center'}}>
@@ -53,7 +53,7 @@ function ProjectDetailThesisPage() {
             <div style={{marginTop : '.5em'}}>150m<sup>2</sup> courtyard</div>
         </div>
         <div style={{display : 'flex', justifyContent : 'center', margin : '50px 0px'}}>
-            <img src={selectedProject.topView} height='450px' alt='top view img'/>
+            <img src={selectedProject.topView} height='450px' alt='top view img' className='top-view-image'/>
         </div>
         <div className='project-top-view-description'>
             <div>{selectedProject.topViewDescription}</div>
@@ -61,20 +61,20 @@ function ProjectDetailThesisPage() {
             <div>{selectedProject.gridsDescription}</div>
         </div>
         <div style={{display : 'flex', justifyContent : 'center', margin : '25px 0px 25px 70px'}}>
-            <img src={selectedProject.animation} alt="animation gif" height="600px"/>
+            <img src={selectedProject.animation} alt="animation gif" height="600px" className='gif'/>
         </div>
         <div className='project-top-view-description'>
             <div>{selectedProject.loversDescription}</div>
         </div>
         <div style={{display : 'flex', justifyContent : 'center', margin : '50px 0px 100px 0px'}}>
-            <img src={selectedProject.assonometria} height="500px" alt="assonometria img"/>
+            <img src={selectedProject.assonometria} height="500px" alt="assonometria img" className='assonometria-prospetto-image'/>
         </div>
         <div style={{display : 'flex', justifyContent : 'center', margin : '50px 0px'}}>
-            <img src={selectedProject.prospettoCompleto} height='550px' alt='prospetto completo img'/>
+            <img src={selectedProject.prospettoCompleto} height='550px' alt='prospetto completo img' className='assonometria-prospetto-image'/>
         </div>
         {selectedProject.images.length!==0?
         <Carousel 
-            style={{marginTop : '100px', height  : '650px'}} 
+            style={{marginTop : '100px'}} 
             activeIndex={activeIndex} 
             onSelect={handleSelect} 
             interval={null} variant="dark" 
@@ -87,10 +87,10 @@ function ProjectDetailThesisPage() {
                         {item.label}
                     </div>
                     <div className="d-flex justify-content-center">
-                      <img src={item.image} alt="First slide" height="600px"/>
+                      <img src={item.image} alt="First slide" height="600px" className='carousel-render'/>
                     </div>
                   
-                  <div className='carousel-description'>
+                  <div className='carousel-description-render'>
                         {item.description}
                     </div>
                 </Carousel.Item>

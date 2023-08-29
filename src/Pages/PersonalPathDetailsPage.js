@@ -27,12 +27,12 @@ function PersonalPathPageDetailsPage() {
     </div>
     <div className='personal-path-page-container'>
       <div className='personal-path-page-block1'>
-        <div className='title'>
+        <div className='title personal-path-title'>
             <div className='vertical-center'>
                 and this is <br></br>
                 my path
-                <div style={{display : 'flex', justifyContent : 'flex-end', marginTop : '20px'}}>
-                    <img src={lineaRossa} width="100px" alt="red line"/>
+                <div className='red-line-container' style={{marginTop : '20px'}}>
+                    <img src={lineaRossa} width="100px" alt="red line" className='red-line'/>
                 </div>
             </div>
         </div>

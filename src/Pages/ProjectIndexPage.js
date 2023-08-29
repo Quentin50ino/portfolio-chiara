@@ -32,7 +32,7 @@ function ProjectIndexPage() {
               <div style={{display : 'flex', justifyContent : 'center', marginTop : '30px'}}>
                 <img key={project.key} src={project.imageNameFront} width="50px" alt="project front"></img>
                 <div style={{display : 'flex', flexDirection : 'column', justifyContent : 'center', alignItems : 'center', marginTop : '0px', width : '8em', cursor : 'pointer'}} 
-                className='subtitle' onClick={() => goToDetailPage(project.key)}>
+                className='subtitle subtitle-project-index' onClick={() => goToDetailPage(project.key)}>
                     <div style={{fontSize : '18px'}}>{project.name}</div>
                     <div style={{fontSize : '12px'}}>{project.subtitle}</div>
                   </div>
@@ -50,7 +50,7 @@ function ProjectIndexPage() {
           <span className='title'>projects</span> <br></br>
         </div>
         <div className='vertical-center-second-column-index d-md-none d-lg-block d-lg-none d-xl-block d-xl-none'>
-          <span className='title'>My projects</span>
+          <span className='title title-my-projects'>My projects</span>
         </div>
       </div>
     </div>

@@ -7,7 +7,7 @@
       "locations":[
          {
             "label":"Location: Corso Dante 59 - Asti",
-            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/25c139c5353c4e23535f7470b1db6c8b80c9bca9/side%20to%20side/Facciata.svg"
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/744bbac7d1f8246ed9cbc82ecee7b0f5848f2fb2/side%20to%20side/location%20side%20to%20side.svg"
          }
       ],
       "informations":[
@@ -132,7 +132,7 @@
             "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/caac7d54987bbd03a146f4dad612137161dd2100/Monesiglio/Tavola%20disegno%202%20copia%202.svg"
          }
       ],
-      "description":"The client's reuest was to design the layout of the room before the temporary exhibition halls.<br> In addiction of the creation of an internal bookshop, I came up with the idea of creating external brightly colored cones that would attract the attention of visitors and invite them to enter.<br> The same color, similar to blue, has been used for the self-supporting structure of the bookshop.<br> A peculiarity of the project is the presence of solids and voids that play with the beams of light coming from the windows of the castle.",
+      "description":"The client's request was to design the layout of the room before the temporary exhibition halls.<br> In addiction of the creation of an internal bookshop, I came up with the idea of creating external brightly colored cones that would attract the attention of visitors and invite them to enter.<br> The same color, similar to blue, has been used for the self-supporting structure of the bookshop.<br> A peculiarity of the project is the presence of solids and voids that play with the beams of light coming from the windows of the castle.",
       "imageNameFront":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%203.svg?token=ATJMFNXMHAVQ6DYAQ5UJQBDEK6ZZK",
       "imageNameBack":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%203b.svg?token=ATJMFNUVQEAR7UIMXEYK3UDEK6Z26"
    },
@@ -152,18 +152,22 @@
          }
       ],
       "informations":[
+         {
+            "label":"Plan",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/52810607b030f49c7caeb7c8c9b9fc22a69e6c18/Ufficio%20avvocati%20SVG/plan%20double%20face.svg"
+         }
          
       ],
       "images":[
          {
             "label":"",
             "description":"Meeting Room",
-            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/92128919cd2c03c5b0a44218af75e945bb6684af/Ufficio%20avvocati%20SVG/Tavola%20disegno%201.svg"
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/49e4f24eadeea8f16d4f171b60300024c684976e/Ufficio%20avvocati%20SVG/Tavola%20disegno%201.svg"
          },
          {
             "label":"",
             "description":"Office",
-            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/92128919cd2c03c5b0a44218af75e945bb6684af/Ufficio%20avvocati%20SVG/Tavola%20disegno%202.svg"
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/fc7bdf1a58848808afa35f386498e325d8a4a87f/Ufficio%20avvocati%20SVG/Tavola%20disegno%202.svg"
          },
          {
             "label":"",

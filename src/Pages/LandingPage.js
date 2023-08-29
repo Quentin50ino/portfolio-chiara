@@ -17,9 +17,9 @@ function LandingPage() {
       <div className='vertical-and-orizontal-center'>
       <div className='orizontal-center'>
         <img className='thats-me-center' src={Copertina} height="380px" style={{marginRight : '100px'}} alt="that's me"/>
-        <div className='title' >That's &nbsp; me <span className='title blob red' style={{position : 'absolute'}} onClick={() => navigate('/personal-path')}>*</span></div>
+        <div className='title title-thats-me' >That's &nbsp; me <span className='title blob red thatsme' style={{position : 'absolute'}} onClick={() => navigate('/personal-path')}>*</span></div>
       </div>
-      <div className='subtitle' style={{marginTop : '200px'}}>
+      <div className='subtitle padder' style={{marginTop : '200px'}}>
         <span>I love the eclectic style, with its combinations <br></br> of bright colors and tones.<br></br> I'm looking for people of the same kind or can appriciate diversity.  <br></br> </span>
       </div>
       </div>

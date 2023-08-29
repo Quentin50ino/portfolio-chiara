@@ -43,7 +43,7 @@ function ProjectDetailInteriorPage() {
     <div>
     {!loading?<div>
         <img src={arrowLeft} className='back-arrow' onClick={() => navigate('/project-index')} alt="back arrow"/>
-        <div style={{display : 'flex', justifyContent : 'center'}} >
+        <div style={{display : 'flex', justifyContent : 'center'}} className='banner-image'>
             {selectedProject.bannerImage?<img src={selectedProject.bannerImage} className='col-xxl-6 col-xl-6 col-lg-6 col-sm-10 col-10' alt="banner"/>:null}
         </div>
         <div className='project-title'>
@@ -58,7 +58,7 @@ function ProjectDetailInteriorPage() {
         <div style={{display : 'flex', justifyContent : 'center'}}>
             <div className='project-description col-xxl-6 col-xl-6 col-lg-6 col-sm-10 col-10' dangerouslySetInnerHTML={{ __html: selectedProject.description }}></div>
         </div>
-        {selectedProject.locations.length!==0?<Carousel activeIndex={activeIndex3} onSelect={handleSelect3} interval={null} variant="dark" style={{marginTop : '100px'}} className={`${selectedProject.locations.length===1 ? "carousel-no-arrow" : (activeIndex3 === 0 ? "carousel-no-left-arrow" : (activeIndex3 === selectedProject.locations.length - 1 ? "carousel-no-right-arrow" : ""))}`}>
+        {selectedProject.locations.length!==0?<Carousel activeIndex={activeIndex3} onSelect={handleSelect3} interval={null} variant="dark" style={{marginTop : '60px'}} className={`${selectedProject.locations.length===1 ? "carousel-no-arrow" : (activeIndex3 === 0 ? "carousel-no-left-arrow" : (activeIndex3 === selectedProject.locations.length - 1 ? "carousel-no-right-arrow" : ""))}`}>
         {
             selectedProject.locations.map((item) => {
                 return(
@@ -66,8 +66,8 @@ function ProjectDetailInteriorPage() {
                     <div className='project-label'>
                         {item.label}
                     </div>
-                    <div className="d-flex justify-content-center">
-                      <img src={item.image} alt="First slide" style={{marginTop : '50px'}}/>
+                    <div class="d-flex justify-content-center">
+                        <img src={item.image} alt="First slide" style={{marginTop : '50px'}} className='location-image'/>
                     </div>
                 </Carousel.Item>
              )
@@ -83,7 +83,7 @@ function ProjectDetailInteriorPage() {
                         {item.label}
                     </div>
                     <div className="d-flex justify-content-center">
-                      <img src={item.image} alt="First slide" height="500px"/>
+                      <img src={item.image} alt="First slide" height="500px" className='plan-image'/>
                     </div>
                 </Carousel.Item>
              )
@@ -110,10 +110,10 @@ function ProjectDetailInteriorPage() {
                         {item.label}
                     </div>
                     <div className="d-flex justify-content-center">
-                      <img src={item.image} alt="First slide" className='col-xl-10 col-12'/>
+                      <img src={item.image} alt="First slide" className='col-xl-8 col-12'/>
                     </div>
                   
-                  <div className='carousel-description'>
+                  <div className='carousel-description-render margin-top-0'>
                         {item.description}
                     </div>
                 </Carousel.Item>

@@ -21,7 +21,7 @@ function PersonalPathPage2() {
 
     let bulletListEducation = [
       '2013-2018 - Scientific high school N.Rodolico; Florence', 
-      '2018-2021 - IAAD; Torino'
+      '2018-2021 - Graduated in Interior Design at IAAD; Torino'
     ];
     let bulletListExperience = [
       '2017 - Tourist guide at the GAM - gallery of modern art of Palazzo Pitti in Florence.',
@@ -35,7 +35,7 @@ function PersonalPathPage2() {
       '14 years as classic dancer in affiliation of the National Dance Council of America Ballet School'
     ];
     let bulletListLanguages = [
-      'Italian _ native language',
+      'Italian _ native',
       'English _ Level B2 (TOEIC)'
     ];
 
@@ -58,12 +58,12 @@ function PersonalPathPage2() {
       </div>
     <div className='personal-path-page-container'>
       <div className='personal-path-page-block1'>
-        <div className='title'>
+        <div className='title personal-path-title'>
             <div className='vertical-center'>
                 and this is <br></br>
                 my path
-                <div style={{display : 'flex', justifyContent : 'flex-end', marginTop : '20px'}}>
-                    <img src={lineaRossa} width="100px" alt="red line"/>
+                <div className='red-line-container' style={{marginTop : '20px'}}>
+                    <img src={lineaRossa} width="100px" alt="red line" className='red-line'/>
                 </div>
             </div>
         </div>
