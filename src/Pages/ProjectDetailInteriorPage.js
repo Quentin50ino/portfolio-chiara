@@ -58,7 +58,15 @@ function ProjectDetailInteriorPage() {
         <div style={{display : 'flex', justifyContent : 'center'}}>
             <div className='project-description col-xxl-6 col-xl-6 col-lg-6 col-sm-10 col-10' dangerouslySetInnerHTML={{ __html: selectedProject.description }}></div>
         </div>
-        {selectedProject.locations.length!==0?<Carousel activeIndex={activeIndex3} onSelect={handleSelect3} interval={null} variant="dark" style={{marginTop : '60px'}} className={`${selectedProject.locations.length===1 ? "carousel-no-arrow" : (activeIndex3 === 0 ? "carousel-no-left-arrow" : (activeIndex3 === selectedProject.locations.length - 1 ? "carousel-no-right-arrow" : ""))}`}>
+        {selectedProject.locations.length!==0?<Carousel
+            touch={false}
+            controls={selectedProject.locations.length === 1 ? false : true} 
+            activeIndex={activeIndex3} 
+            onSelect={handleSelect3} 
+            interval={null} 
+            variant="dark" 
+            style={{marginTop : '60px'}}
+            className={`${(activeIndex3 === 0 ? "carousel-no-left-arrow" : (activeIndex3 === selectedProject.locations.length - 1 ? "carousel-no-right-arrow" : ""))}`}>
         {
             selectedProject.locations.map((item) => {
                 return(
@@ -74,7 +82,15 @@ function ProjectDetailInteriorPage() {
             })
         }
         </Carousel>:null}
-        {selectedProject.informations.length!==0?<Carousel activeIndex={activeIndex} onSelect={handleSelect} interval={null} variant="dark" style={{marginTop : '100px'}} className={`${selectedProject.informations.length===1 ? "carousel-no-arrow" : (activeIndex === 0 ? "carousel-no-left-arrow" : (activeIndex === selectedProject.informations.length - 1 ? "carousel-no-right-arrow" : ""))}`}>
+        {selectedProject.informations.length!==0?<Carousel
+            touch={false}
+            controls={selectedProject.informations.length === 1 ? false : true} 
+            activeIndex={activeIndex} 
+            onSelect={handleSelect} 
+            interval={null} 
+            variant="dark" 
+            style={{marginTop : '100px'}}
+            className={`${(activeIndex === 0 ? "carousel-no-left-arrow" : (activeIndex === selectedProject.informations.length - 1 ? "carousel-no-right-arrow" : ""))}`}>
         {
             selectedProject.informations.map((item) => {
                 return(
@@ -97,11 +113,13 @@ function ProjectDetailInteriorPage() {
         </div></div>:null}
         {selectedProject.images.length!==0?
         <Carousel 
+            touch={false}
+            controls={selectedProject.images.length === 1 ? false : true} 
             style={{marginTop : '50px'}} 
             activeIndex={activeIndex2} 
             onSelect={handleSelect2} 
-            interval={null} variant="dark" 
-            className={`${selectedProject.images.length===1 ? "carousel-no-arrow" : (activeIndex2 === 0 ? "carousel-no-left-arrow" : (activeIndex2 === selectedProject.images.length - 1 ? "carousel-no-right-arrow" : ""))}`}>
+            interval={null} variant="dark"
+            className={`${(activeIndex2 === 0 ? "carousel-no-left-arrow" : (activeIndex2 === selectedProject.images.length - 1 ? "carousel-no-right-arrow" : ""))}`}>
         {
             selectedProject.images.map((item) => {
                 return(

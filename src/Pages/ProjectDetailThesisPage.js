@@ -74,11 +74,13 @@ function ProjectDetailThesisPage() {
         </div>
         {selectedProject.images.length!==0?
         <Carousel 
-            style={{marginTop : '100px'}} 
+            style={{marginTop : '100px'}}
+            touch={false}
+            controls={selectedProject.images.length === 1 ? false : true}  
             activeIndex={activeIndex} 
             onSelect={handleSelect} 
             interval={null} variant="dark" 
-            className={`${selectedProject.images.length===1 ? "carousel-no-arrow" : (activeIndex === 0 ? "carousel-no-left-arrow" : (activeIndex === selectedProject.images.length - 1 ? "carousel-no-right-arrow" : ""))}`}>
+            className={`${(activeIndex === 0 ? "carousel-no-left-arrow" : (activeIndex === selectedProject.images.length - 1 ? "carousel-no-right-arrow" : ""))}`}>
         {
             selectedProject.images.map((item) => {
                 return(
