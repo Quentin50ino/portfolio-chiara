@@ -29,7 +29,7 @@ function ProjectDetailThesisPage() {
     {!loading?<div>
         <img src={arrowLeft} className='back-arrow' onClick={() => navigate('/project-index')} alt="back arrow"/>
         <div style={{display : 'flex', justifyContent : 'center'}}>
-            {selectedProject.bannerImage?<img src={selectedProject.bannerImage} width="800px" alt="banner"/>:null}
+            {selectedProject.bannerImage?<img src={selectedProject.bannerImage} width="800px" alt="banner" className='col-xxl-6 col-xl-6 col-lg-6 col-sm-10 col-10'/>:null}
         </div>
         <div className='project-title'>
             {selectedProject.name}

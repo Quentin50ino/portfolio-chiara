@@ -66,7 +66,7 @@ const data =   {
        }
     ],
     "topView" : "https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/61cd103b2cbb11c5c26e677d2782dca5284e8ef0/Upstairs/Vista%20dall'alto%20castello.svg",
-    "topViewDescription" : "In the tenth century the incastellamento spread as a system of defense and protection against the attack of enemies, but also to unite the curtis, the agricultural company of the lord to the houses of the people who worked there.",
+    "topViewDescription" : "In the 10th century the incastellamento spread as a system of defense and protection against the attack of enemies, but also to unite the curtis, the agricultural company of the lord to the houses of the people who worked there.",
     "prospettoCompleto" : "https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/main/Upstairs/Prospetto%20completo.png",
     "description":"Castel di Luco - Ascoli - Italy",
     "gridsDescription": "My thesis is about the project of transforming what used to be the guardian's house into a boutique hotel. It all starts with a grid that I superimposed on the plan and from which came the 8 platforms that characterize the space.",
