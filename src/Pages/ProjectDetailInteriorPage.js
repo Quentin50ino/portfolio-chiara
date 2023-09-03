@@ -99,7 +99,7 @@ function ProjectDetailInteriorPage() {
                         {item.label}
                     </div>
                     <div className="d-flex justify-content-center">
-                      <img src={item.image} alt="First slide" height="500px" className='plan-image'/>
+                      <img src={item.image} alt="First slide" style={{marginTop : '10px'}} height="500px" className='plan-image'/>
                     </div>
                 </Carousel.Item>
              )

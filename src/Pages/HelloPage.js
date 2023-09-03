@@ -16,7 +16,7 @@ function HelloPage() {
           <div style={{display : 'flex', justifyContent : 'center'}}>
             <div className='title'><div className='title-row'>Hi, I'm</div> <div className='title-row'>Chiara</div> <div className='title-row'>Zeloni<span style={{position : 'fixed'}} className='title blob red' onClick={() => navigate('/landing')}>*</span></div></div>
           </div>
-            <div className='subtitle'><span className='aka'>as known as</span>
+            <div className='subtitle'><span className='aka'>also known as</span>
             <span className='chez'>
               <div className="vertical-aligned">
                 <img src={asterisco} alt="asterisco" width="20px" height="20px"/>
