@@ -1,6 +1,6 @@
 [
    {
-      "key":"project1",
+      "key":"Ov3101XPHtumjJ9GuMDMalwrjKafAYZX",
       "name":"Side to Side",
       "subtitle":"apartment",
       "bannerImage":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/c72d43eb21400cde1c27f7e69d2784c2923c0b57/side%20to%20side/Intro_definitiva.svg",
@@ -12,11 +12,7 @@
       ],
       "informations":[
          {
-            "label":"Before",
-            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/8330b22e5d58d3c95b601ad8ce63a30b16ace210/side%20to%20side/Stato%20di%20progetto.svg"
-         },
-         {
-            "label":"After",
+            "label":"Plan",
             "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/8330b22e5d58d3c95b601ad8ce63a30b16ace210/side%20to%20side/Stato%20di%20fatto%20.svg"
          }
       ],
@@ -39,11 +35,6 @@
          {
             "label":"",
             "description":"Single Room",
-            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/e46e37bf660a7163684471fa01e170c586dd862a/side%20to%20side/Camera%20ragazza.svg"
-         },
-         {
-            "label":"",
-            "description":"Single Room",
             "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/c2bb0e3fd28f7e2ed295d034341ee2e7e59aeeaf/side%20to%20side/Camera%20ragazzo.svg"
          },
          {
@@ -57,7 +48,110 @@
       "imageNameBack":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%201b.svg?token=ATJMFNRKCVU4LOUNVSHXIC3EK6ZTO"
    },
    {
-      "key":"project2",
+      "key":"EcoI9NrDqQlzYiBLBEPFnFeeAgyb74pq",
+      "name":"Belvedere",
+      "subtitle":"villa",
+      "bannerImage":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/refs/heads/main/villa%20belvedere/Banner_Villa_Belvedere.jpeg",
+      "locations":[
+         
+      ],
+      "informations":[
+         {
+            "label":"Third Floor",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/55c8077256c6d160e2e7ad1998c7bd4af30b9309/villa%20belvedere/Tavola%20disegno%201.svg"
+         },
+         {
+            "label":"Second Floor",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/f211dc8876087193d645a3fcd46987c3b7fe50b1/villa%20belvedere/Tavola%20disegno%201%20copia.svg"
+         },
+         {
+            "label":"First Floor",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/f211dc8876087193d645a3fcd46987c3b7fe50b1/villa%20belvedere/Tavola%20disegno%201%20copia%202.svg"
+         }
+      ],
+      "images":[
+         {
+            "label":"",
+            "description":"",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/refs/heads/main/villa%20belvedere/Enscape_2024-08-12-13-28-39.jpg"
+         },
+         {
+            "label":"",
+            "description":"",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/refs/heads/main/villa%20belvedere/Enscape_2024-08-12-13-13-04.jpg"
+         },
+         {
+            "label":"",
+            "description":"",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/refs/heads/main/villa%20belvedere/Enscape_2024-08-12-12-32-38.jpg"
+         },
+         {
+            "label":"",
+            "description":"",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/refs/heads/main/villa%20belvedere/Enscape_2024-08-12-13-26-08.jpg"
+         },
+         {
+            "label":"",
+            "description":"",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/refs/heads/main/villa%20belvedere/01.jpg"
+         },
+         {
+            "label":"",
+            "description":"",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/refs/heads/main/villa%20belvedere/02.jpg"
+         },
+         {
+            "label":"",
+            "description":"",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/refs/heads/main/villa%20belvedere/2.jpg"
+         },
+         {
+            "label":"",
+            "description":"",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/refs/heads/main/villa%20belvedere/A.jpg"
+         },
+         {
+            "label":"",
+            "description":"",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/refs/heads/main/villa%20belvedere/B.jpg"
+         },
+         {
+            "label":"",
+            "description":"",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/refs/heads/main/villa%20belvedere/C.jpg"
+         },
+         {
+            "label":"",
+            "description":"",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/refs/heads/main/villa%20belvedere/E.jpg"
+         },
+         {
+            "label":"",
+            "description":"",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/refs/heads/main/villa%20belvedere/F.jpg"
+         },
+         {
+            "label":"",
+            "description":"",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/refs/heads/main/villa%20belvedere/Enscape_2024-06-21-19-00-43.jpg"
+         },
+         {
+            "label":"",
+            "description":"",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/refs/heads/main/villa%20belvedere/Enscape_2024-06-21-18-38-05.jpg"
+         },
+         {
+            "label":"",
+            "description":"",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/refs/heads/main/villa%20belvedere/Enscape_2024-06-21-19-11-59.jpg"
+         }
+      ],
+      "description":"La Villa Belvedere è proprio un gran belvedere",
+      "imageNameFront":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/0fa5928faa9376ca4546a5231de6d13773882a4b/Pattern%207a.svg",
+      "imageNameBack":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/0fa5928faa9376ca4546a5231de6d13773882a4b/Pattern%207b.svg"
+   },
+   {
+      "key":"GaXmZRKruSmyS84jDoUAtw8AH9TfIdIb",
       "name":"Tree Wood",
       "subtitle":"product",
       "bannerImage":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/bb4b5299c598d77306f6364a55d0f107459b1339/Arredo%20svg/Tavola%20disegno%202.svg",
@@ -105,7 +199,7 @@
       "imageNameBack":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%202b.svg?token=ATJMFNQD2VSF7YB2U3AHIYLEK6ZYE"
    },
    {
-      "key":"project3",
+      "key":"anFUNMxrYTFZejQTpmEleOPPrX06lApV",
       "name":"Bookshop",
       "subtitle":"retail",
       "bannerImage":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/24ecd2db78b0b6d5aaf7e00a12d24f857fbbde09/Monesiglio/Tavola%20disegno%205.svg",
@@ -137,7 +231,7 @@
       "imageNameBack":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%203b.svg?token=ATJMFNUVQEAR7UIMXEYK3UDEK6Z26"
    },
    {
-      "key":"project4",
+      "key":"JhGc7IRm32S764SdEmLrmUQCGBvbDCEy",
       "name":"Double Face",
       "subtitle":"office",
       "bannerImage":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/363f92bc9a190ff38772b519b5b38ab42c87012f/Ufficio%20avvocati%20SVG/banner.svg",
@@ -167,11 +261,6 @@
          {
             "label":"",
             "description":"Office",
-            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/fc7bdf1a58848808afa35f386498e325d8a4a87f/Ufficio%20avvocati%20SVG/Tavola%20disegno%202.svg"
-         },
-         {
-            "label":"",
-            "description":"Office",
             "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/363f92bc9a190ff38772b519b5b38ab42c87012f/Ufficio%20avvocati%20SVG/ufficio2.svg"
          },
          {
@@ -185,74 +274,7 @@
       "imageNameBack":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%204b.svg?token=ATJMFNW4EAELEWTA375QPODEK6Z5C"
    },
    {
-      "key":"project5",
-      "name":"Upstairs",
-      "subtitle":"boutique hotel",
-      "bannerImage":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/a4baaf61633d5d88241ffd89e6114ba530e8cf3e/Upstairs/Banner%20(1).svg",
-      "locationImage" : "https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/7197bae9756bca6c475f46e2b174e614d11e6804/Upstairs/Mappa%20(1).svg",
-      "locationDescription" : "The Luco Castle is located in the municipality of Acquasanta Terme in the province of Ascoli Piceno. It is one of the rarest and most unique castles in the Piceno which still retains, almost intact, its aspect of a medieval architectural structure, circular and located on the top of a travertine ridge.",
-      "locations":[
-         
-      ],
-      "informations":[
-         
-      ],
-      "images":[
-         {
-            "label":"",
-            "description":"Lobby",
-            "image": "/static/media/INGRESSO.f6e20aa2d1551f0ece02.png"
-         },
-         {
-            "label":"",
-            "description":"First studio",
-            "image": "/static/media/STUDIO1 ph.20e3b7f47db62ae67baf.png"
-         },
-         {
-            "label":"",
-            "description":"Second studio",
-            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/main/Upstairs/render/studio3.png"
-         },
-         {
-            "label":"",
-            "description":"Couch",
-            "image": "/static/media/DIVANO ph 2.2a21479b879efad04767.png"
-         },
-         {
-            "label":"",
-            "description":"Kitchen",
-            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/main/Upstairs/render/andre%20cucina.jpg"
-         },
-         {
-            "label":"",
-            "description":"Bar",
-            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/main/Upstairs/render/andre%20bar.jpg"
-         },
-         {
-            "label":"",
-            "description":"Bathroom",
-            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/main/Upstairs/render/andre%20bago%201.jpg.png"
-         },
-         {
-            "label":"Bedroom",
-            "description":"",
-            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/main/Upstairs/render/camera%204.png"
-         },
-         {
-            "label":"",
-            "description":"Bathtub",
-            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/main/Upstairs/render/andre%20vasca.jpg"
-         }
-      ],
-      "topView" : "https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/61cd103b2cbb11c5c26e677d2782dca5284e8ef0/Upstairs/Vista%20dall'alto%20castello.svg",
-      "topViewDescription" : "In the tenth century the incastellamento spread as a system of defense and protection against the attack of enemies, but also to unite the curtis, the agricultural company of the lord to the houses of the people who worked there. As a site for my thesis I have in fact treated what was the house of the castle keeper.",
-      "prospettoCompleto" : "https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/489bdd8ee00915eb0043101160f639f51d126c36/Upstairs/Prospetto%20completo.svg",
-      "description":"Castel di Luco - Ascoli - Italy",
-      "imageNameFront":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%205.svg?token=ATJMFNSNHND4SHZNIGVZEL3EK6Z6G",
-      "imageNameBack":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%205b.svg?token=ATJMFNRIC3ADLXL6YMPJ4O3EK6Z7I"
-   },
-   {
-      "key":"project6",
+      "key":"If4ztoB3pjDlbyJr3gSgc9PZg81bBlQp",
       "name":"Kitchen",
       "subtitle":"apartment",
       "bannerImage":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/5a61fc0f2583d0c969d99a68e04a61a280a43a87/KITCHEN/banner.svg",
@@ -280,5 +302,35 @@
       "description":"We are inside a large kitchen with two equipped walls. The family, lovers of clean lines, wanted to play with unconventional chromatic tones.<br> The main feature of the kitchen is in fact its colours, mainly green, accompanied by the midnight blue Fenix of the top and the small red details, such as the supports of the shelves or the applique.<br> To add character to the space I used two perforated panels, acting as boiserie, and contrasting the squared shapes of the powder-colored tiles.",
       "imageNameFront":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%206.svg?token=ATJMFNS2IY7O3HYUGDT7TRDEK62AI",
       "imageNameBack":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%206b.svg?token=ATJMFNTI4JHFO5MKXHQPQADEK62BI"
+   },
+   {
+      "key":"IUBW2Gb691vHY7fcIS9Lb98P8dEvlArU",
+      "name":"London",
+      "subtitle":"apartment",
+      "bannerImage":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/5a61fc0f2583d0c969d99a68e04a61a280a43a87/KITCHEN/banner.svg",
+      "locations":[
+         
+      ],
+      "informations":[
+         {
+            "label":"Plan",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/a6c773f38c2afa36b4405f5c584f9c09933b7e67/KITCHEN/Planimetria.svg"
+         }
+      ],
+      "images":[
+         {
+            "label":"",
+            "description":"",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/bbb120fec3b741263de75821e2bf805d3007875a/KITCHEN/cucina%201.svg"
+         },
+         {
+            "label":"",
+            "description":"",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/c6a1f1802259a7a8f277ea5c624615573ba43d8b/KITCHEN/cucina%202.svg"
+         }
+      ],
+      "description":"We are inside a large kitchen with two equipped walls. The family, lovers of clean lines, wanted to play with unconventional chromatic tones.<br> The main feature of the kitchen is in fact its colours, mainly green, accompanied by the midnight blue Fenix of the top and the small red details, such as the supports of the shelves or the applique.<br> To add character to the space I used two perforated panels, acting as boiserie, and contrasting the squared shapes of the powder-colored tiles.",
+      "imageNameFront":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/0fa5928faa9376ca4546a5231de6d13773882a4b/Pattern%208a.svg",
+      "imageNameBack":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/0fa5928faa9376ca4546a5231de6d13773882a4b/Pattern%208b.svg"
    }
 ]

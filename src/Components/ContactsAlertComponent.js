@@ -5,6 +5,7 @@ import Modal from 'react-bootstrap/Modal';
 import phone from '../img/telephone-fill (1).svg';
 import mail from '../img/envelope-fill.svg';
 import linkedin from '../img/linkedin.svg';
+import instagram from '../img/instagram.svg';
 
 function ContactsAlertComponent() {
 
@@ -47,7 +48,11 @@ function MyVerticallyCenteredModal(props) {
             </div>
             <div>
                 <img className='contacts-icons' src={linkedin} alt="linkedin icon"/>
-                <a href='https://www.linkedin.com/in/chiara-zeloni-2a494a210/'>Linkedin</a>
+                <a href='https://www.linkedin.com/in/chiara-zeloni-2a494a210/' target='_blank'>Linkedin</a>
+            </div>
+            <div>
+                <img className='contacts-icons' src={instagram} alt="instagram icon"/>
+                <a href='https://www.instagram.com/chiarazeloni_interior/' target='_blank'>Instagram</a>
             </div>
         </Modal.Body>
       </Modal>

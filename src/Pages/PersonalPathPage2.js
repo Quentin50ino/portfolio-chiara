@@ -26,9 +26,10 @@ function PersonalPathPage2() {
     let bulletListExperience = [
       '2017 - Tourist guide at the GAM - gallery of modern art of Palazzo Pitti in Florence.',
       '2017 - Tourist guide at the museum of Villa Bardini in Florence.',
-      '2020 - Internship at the Serragli130 archi studio of Florence.',
-      '2021 - Internship at Amlab design studio',
-      '2022 / present - Freelance collaboration with Aifaicasa studio in Turin'
+      '2020 - Internship at the Serragli130 archi studio in Florence.',
+      '2021 - Internship at Amlab design studio in Cuneo',
+      '2022 / 2023 - Freelance collaboration with Aifaicasa studio in Turin',
+      '2023 / present - Freelance collaboration with Serragli130 archi studio in Florence'
     ];
     let bulletListExtras = [
       '2015 - 2017 English language courses in Brighton and Oxford.',

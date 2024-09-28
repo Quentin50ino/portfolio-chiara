@@ -22,8 +22,6 @@ function ProjectDetailInteriorPage() {
     useEffect(() => {
         setTimeout(() => {
             setLoading(false);
-            console.log("ACTIVE INDEX: ", activeIndex);
-            console.log("ACTIVE INDEX 2: ", activeIndex2);
         }, 2000)
     })
 

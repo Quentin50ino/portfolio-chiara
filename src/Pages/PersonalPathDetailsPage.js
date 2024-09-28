@@ -38,7 +38,7 @@ function PersonalPathPageDetailsPage() {
         </div>
       </div>
       <div className='personal-path-page-block2'>
-        <div>
+    <div className='vertical-center-second-column project-index-page-block1'>
         <div className='selected-pattern-path-details'>
             <img id="pattern1" src={location.state.pattern} width="70px" alt="pattern" className='pattern-path-details-left'></img>
             <div style={{display : 'flex', justifyContent : 'center', alignItems : 'center', marginTop : '0px', width : '6em',cursor : "pointer"}} className='subtitle' onClick={backToPathPage}>{location.state.title}</div>
