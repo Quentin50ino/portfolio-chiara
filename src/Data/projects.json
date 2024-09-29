@@ -16,6 +16,7 @@
             "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/8330b22e5d58d3c95b601ad8ce63a30b16ace210/side%20to%20side/Stato%20di%20fatto%20.svg"
          }
       ],
+      "render":[],
       "images":[
          {
             "label":"",
@@ -58,18 +59,19 @@
       "informations":[
          {
             "label":"Third Floor",
-            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/55c8077256c6d160e2e7ad1998c7bd4af30b9309/villa%20belvedere/Tavola%20disegno%201.svg"
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/ec0db37ee84ab245b8fbf20719f1e6efbbf683a6/villa%20belvedere/Tavola%20disegno%201.svg"
          },
          {
             "label":"Second Floor",
-            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/f211dc8876087193d645a3fcd46987c3b7fe50b1/villa%20belvedere/Tavola%20disegno%201%20copia.svg"
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/ec0db37ee84ab245b8fbf20719f1e6efbbf683a6/villa%20belvedere/Tavola%20disegno%201%20copia.svg"
          },
          {
             "label":"First Floor",
-            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/f211dc8876087193d645a3fcd46987c3b7fe50b1/villa%20belvedere/Tavola%20disegno%201%20copia%202.svg"
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/ec0db37ee84ab245b8fbf20719f1e6efbbf683a6/villa%20belvedere/Tavola%20disegno%201%20copia%202.svg"
          }
       ],
-      "images":[
+      "images":[],
+      "render":[
          {
             "label":"",
             "description":"",
@@ -146,9 +148,124 @@
             "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/refs/heads/main/villa%20belvedere/Enscape_2024-06-21-19-11-59.jpg"
          }
       ],
-      "description":"La Villa Belvedere è proprio un gran belvedere",
+      "description":"Villa Belvedere, located in the exclusive town of Cap Ferrat, just outside Nice, is the protagonist of the renovation project in which I took part in collaboration with the Serragli130 studio. <br> The interior spaces are designed to maximize the sea view, with large windows that open onto panoramic terraces. The furnishings are minimalist but comfortable. Each room is designed to promote relaxation and well-being, creating an ideal refuge away from the chaos of everyday life. <br> The selected materials are all of natural origin: wood, stone and fabrics in soft colors. These elements not only guarantee a refined aesthetic, but also contribute to creating a warm and welcoming atmosphere. The treated wood surfaces recall the colors of nature, while the local stones integrate perfectly with the surrounding landscape.",
       "imageNameFront":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/0fa5928faa9376ca4546a5231de6d13773882a4b/Pattern%207a.svg",
       "imageNameBack":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/0fa5928faa9376ca4546a5231de6d13773882a4b/Pattern%207b.svg"
+   },
+   {
+      "key":"IUBW2Gb691vHY7fcIS9Lb98P8dEvlArU",
+      "name":"Cambridge",
+      "subtitle":"apartment",
+      "bannerImage":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/refs/heads/main/londra/banner.png",
+      "locations":[
+         
+      ],
+      "informations":[
+         {
+            "label":"First Floor",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/6ac8ab9fc86f768fd73c6e8291dc3b14fd192abc/londra/Tavola%20disegno%201%20copia%203.svg"
+         },
+         {
+            "label":"Second Floor",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/6ac8ab9fc86f768fd73c6e8291dc3b14fd192abc/londra/Tavola%20disegno%201%20copia%204.svg"
+         }
+      ],
+      "images" : [],
+      "render":[
+         {
+            "label":"",
+            "description":"",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/refs/heads/main/londra/1%20(2).png"
+         },
+         {
+            "label":"",
+            "description":"",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/refs/heads/main/londra/2.png"
+         },
+         {
+            "label":"",
+            "description":"",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/refs/heads/main/londra/3.png"
+         },
+         {
+            "label":"",
+            "description":"",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/refs/heads/main/londra/4.png"
+         },
+         {
+            "label":"",
+            "description":"",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/refs/heads/main/londra/5.png"
+         },
+         {
+            "label":"",
+            "description":"",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/refs/heads/main/londra/5b.png"
+         },
+         {
+            "label":"",
+            "description":"",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/refs/heads/main/londra/6.jpg"
+         },
+         {
+            "label":"",
+            "description":"",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/refs/heads/main/londra/7.jpg"
+         },
+         {
+            "label":"",
+            "description":"",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/refs/heads/main/londra/8.jpg"
+         },
+         {
+            "label":"",
+            "description":"",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/refs/heads/main/londra/9.jpg"
+         },
+         {
+            "label":"",
+            "description":"",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/refs/heads/main/londra/10.jpg"
+         },
+         {
+            "label":"",
+            "description":"",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/refs/heads/main/londra/11.jpg"
+         },
+         {
+            "label":"",
+            "description":"",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/refs/heads/main/londra/12.jpg"
+         },
+         {
+            "label":"",
+            "description":"",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/refs/heads/main/londra/13.png"
+         },
+         {
+            "label":"",
+            "description":"",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/refs/heads/main/londra/14.png"
+         },
+         {
+            "label":"",
+            "description":"",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/refs/heads/main/londra/15.png"
+         },
+         {
+            "label":"",
+            "description":"",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/refs/heads/main/londra/16.png"
+         },
+         {
+            "label":"",
+            "description":"",
+            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/refs/heads/main/londra/17.png"
+         }
+      ],
+      "description":"The villa, located in the Cambridge Gate area overlooking Regent's Park, is designed by Hausmann. As such, the building is considered one of the most prestigious in London, but at the same time, it is subject to all the architectural and decorative constraints imposed by the city.<br> During the collaboration with Studio Serragli 130, the team focused on integrating the existing interior decorations with new colors and finishes that would create a sense of conviviality and warmth: one of the family’s primary requests.",
+      "imageNameFront":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/0fa5928faa9376ca4546a5231de6d13773882a4b/Pattern%208a.svg",
+      "imageNameBack":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/0fa5928faa9376ca4546a5231de6d13773882a4b/Pattern%208b.svg"
    },
    {
       "key":"GaXmZRKruSmyS84jDoUAtw8AH9TfIdIb",
@@ -176,6 +293,7 @@
             "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/main/Arredo%20svg/Tree%20Wood%203.jpeg"
          }
       ],
+      "render":[],
       "images":[
          {
             "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/f993d6f5631c86400250bfd7932c9617069a6a52/Arredo%20svg/Tavola%20disegno%203.svg"
@@ -212,6 +330,7 @@
             "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/main/Monesiglio/Tavola%20disegno%201.png"
          } 
       ],
+      "render":[],
       "images":[
          {
             "label":"",
@@ -252,6 +371,7 @@
          }
          
       ],
+      "render":[],
       "images":[
          {
             "label":"",
@@ -272,65 +392,6 @@
       "description":"In a prestigious building in the center of Turin, stands an important law firm.<br>The name \"Double Face\" fully reflects the concept of the project: the viewers can give different faces to the same space, depending on how they looks at it.<br>In fact, there is a contrast between the lower part of the spaces, characterized by an anthracite resin floor, and the upper part, characterized by brightly colored decorations.<br> The double-face theme is also found in the partitions; on one side they are all completely blue, on the other one they have each a different shade.",
       "imageNameFront":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%204.svg?token=ATJMFNRBQIF4CELJB63UAYDEK6Z4E",
       "imageNameBack":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%204b.svg?token=ATJMFNW4EAELEWTA375QPODEK6Z5C"
-   },
-   {
-      "key":"If4ztoB3pjDlbyJr3gSgc9PZg81bBlQp",
-      "name":"Kitchen",
-      "subtitle":"apartment",
-      "bannerImage":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/5a61fc0f2583d0c969d99a68e04a61a280a43a87/KITCHEN/banner.svg",
-      "locations":[
-         
-      ],
-      "informations":[
-         {
-            "label":"Plan",
-            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/a6c773f38c2afa36b4405f5c584f9c09933b7e67/KITCHEN/Planimetria.svg"
-         }
-      ],
-      "images":[
-         {
-            "label":"",
-            "description":"",
-            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/bbb120fec3b741263de75821e2bf805d3007875a/KITCHEN/cucina%201.svg"
-         },
-         {
-            "label":"",
-            "description":"",
-            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/c6a1f1802259a7a8f277ea5c624615573ba43d8b/KITCHEN/cucina%202.svg"
-         }
-      ],
-      "description":"We are inside a large kitchen with two equipped walls. The family, lovers of clean lines, wanted to play with unconventional chromatic tones.<br> The main feature of the kitchen is in fact its colours, mainly green, accompanied by the midnight blue Fenix of the top and the small red details, such as the supports of the shelves or the applique.<br> To add character to the space I used two perforated panels, acting as boiserie, and contrasting the squared shapes of the powder-colored tiles.",
-      "imageNameFront":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%206.svg?token=ATJMFNS2IY7O3HYUGDT7TRDEK62AI",
-      "imageNameBack":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%206b.svg?token=ATJMFNTI4JHFO5MKXHQPQADEK62BI"
-   },
-   {
-      "key":"IUBW2Gb691vHY7fcIS9Lb98P8dEvlArU",
-      "name":"London",
-      "subtitle":"apartment",
-      "bannerImage":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/5a61fc0f2583d0c969d99a68e04a61a280a43a87/KITCHEN/banner.svg",
-      "locations":[
-         
-      ],
-      "informations":[
-         {
-            "label":"Plan",
-            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/a6c773f38c2afa36b4405f5c584f9c09933b7e67/KITCHEN/Planimetria.svg"
-         }
-      ],
-      "images":[
-         {
-            "label":"",
-            "description":"",
-            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/bbb120fec3b741263de75821e2bf805d3007875a/KITCHEN/cucina%201.svg"
-         },
-         {
-            "label":"",
-            "description":"",
-            "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/c6a1f1802259a7a8f277ea5c624615573ba43d8b/KITCHEN/cucina%202.svg"
-         }
-      ],
-      "description":"We are inside a large kitchen with two equipped walls. The family, lovers of clean lines, wanted to play with unconventional chromatic tones.<br> The main feature of the kitchen is in fact its colours, mainly green, accompanied by the midnight blue Fenix of the top and the small red details, such as the supports of the shelves or the applique.<br> To add character to the space I used two perforated panels, acting as boiserie, and contrasting the squared shapes of the powder-colored tiles.",
-      "imageNameFront":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/0fa5928faa9376ca4546a5231de6d13773882a4b/Pattern%208a.svg",
-      "imageNameBack":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/0fa5928faa9376ca4546a5231de6d13773882a4b/Pattern%208b.svg"
    }
 ]
+

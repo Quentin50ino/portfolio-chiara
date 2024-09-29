@@ -1,0 +1,100 @@
+[
+    {
+        "key":"If4ztoB3pjDlbyJr3gSgc9PZg81bBlQp",
+        "name":"Kitchen",
+        "subtitle":"apartment",
+        "bannerImage":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/5a61fc0f2583d0c969d99a68e04a61a280a43a87/KITCHEN/banner.svg",
+        "locations":[
+           
+        ],
+        "informations":[
+           {
+              "label":"Plan",
+              "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/a6c773f38c2afa36b4405f5c584f9c09933b7e67/KITCHEN/Planimetria.svg"
+           }
+        ],
+        "render" : [],
+        "images":[
+           {
+              "label":"",
+              "description":"",
+              "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/bbb120fec3b741263de75821e2bf805d3007875a/KITCHEN/cucina%201.svg"
+           },
+           {
+              "label":"",
+              "description":"",
+              "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/c6a1f1802259a7a8f277ea5c624615573ba43d8b/KITCHEN/cucina%202.svg"
+           }
+        ],
+        "description":"We are inside a large kitchen with two equipped walls. The family, lovers of clean lines, wanted to play with unconventional chromatic tones.<br> The main feature of the kitchen is in fact its colours, mainly green, accompanied by the midnight blue Fenix of the top and the small red details, such as the supports of the shelves or the applique.<br> To add character to the space I used two perforated panels, acting as boiserie, and contrasting the squared shapes of the powder-colored tiles.",
+        "imageNameFront":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%206.svg?token=ATJMFNS2IY7O3HYUGDT7TRDEK62AI",
+        "imageNameBack":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%206b.svg?token=ATJMFNTI4JHFO5MKXHQPQADEK62BI"
+     },
+     {
+        "key":"pgUPiV76zM4PnnDK9k8ejXPWoPtxaPrx",
+        "name":"Upstairs",
+        "subtitle":"boutique hotel",
+        "bannerImage":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/a4baaf61633d5d88241ffd89e6114ba530e8cf3e/Upstairs/Banner%20(1).svg",
+        "locationImage" : "https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/7197bae9756bca6c475f46e2b174e614d11e6804/Upstairs/Mappa%20(1).svg",
+        "locationDescription" : "The Luco Castle is located in the municipality of Acquasanta Terme in the province of Ascoli Piceno. It is one of the rarest and most unique castles in the Piceno which still retains, almost intact, its aspect of a medieval architectural structure, circular and located on the top of a travertine ridge.",
+        "locations":[
+           
+        ],
+        "informations":[
+           
+        ],
+        "images":[
+           {
+              "label":"",
+              "description":"Lobby",
+              "image": "/static/media/INGRESSO.f6e20aa2d1551f0ece02.png"
+           },
+           {
+              "label":"",
+              "description":"First studio",
+              "image": "/static/media/STUDIO1 ph.20e3b7f47db62ae67baf.png"
+           },
+           {
+              "label":"",
+              "description":"Second studio",
+              "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/main/Upstairs/render/studio3.png"
+           },
+           {
+              "label":"",
+              "description":"Couch",
+              "image": "/static/media/DIVANO ph 2.2a21479b879efad04767.png"
+           },
+           {
+              "label":"",
+              "description":"Kitchen",
+              "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/main/Upstairs/render/andre%20cucina.jpg"
+           },
+           {
+              "label":"",
+              "description":"Bar",
+              "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/main/Upstairs/render/andre%20bar.jpg"
+           },
+           {
+              "label":"",
+              "description":"Bathroom",
+              "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/main/Upstairs/render/andre%20bago%201.jpg.png"
+           },
+           {
+              "label":"Bedroom",
+              "description":"",
+              "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/main/Upstairs/render/camera%204.png"
+           },
+           {
+              "label":"",
+              "description":"Bathtub",
+              "image":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/main/Upstairs/render/andre%20vasca.jpg"
+           }
+        ],
+        "topView" : "https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/61cd103b2cbb11c5c26e677d2782dca5284e8ef0/Upstairs/Vista%20dall'alto%20castello.svg",
+        "topViewDescription" : "In the tenth century the incastellamento spread as a system of defense and protection against the attack of enemies, but also to unite the curtis, the agricultural company of the lord to the houses of the people who worked there. As a site for my thesis I have in fact treated what was the house of the castle keeper.",
+        "prospettoCompleto" : "https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/489bdd8ee00915eb0043101160f639f51d126c36/Upstairs/Prospetto%20completo.svg",
+        "description":"Castel di Luco - Ascoli - Italy",
+        "imageNameFront":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%205.svg?token=ATJMFNSNHND4SHZNIGVZEL3EK6Z6G",
+        "imageNameBack":"https://raw.githubusercontent.com/Quentin50ino/portfolio-chiara-images/d43a50f8376526fb51f61e0aff38c9cd2aeb2873/Progetto%205b.svg?token=ATJMFNRIC3ADLXL6YMPJ4O3EK6Z7I"
+     }
+]

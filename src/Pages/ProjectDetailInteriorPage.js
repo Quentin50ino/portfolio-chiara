@@ -97,7 +97,7 @@ function ProjectDetailInteriorPage() {
                         {item.label}
                     </div>
                     <div className="d-flex justify-content-center">
-                      <img src={item.image} alt="First slide" style={{marginTop : '10px'}} height="500px" className='plan-image'/>
+                      <img src={item.image} alt="First slide" style={{marginTop : '10px'}} className={'carousel-interior-render'}/>
                     </div>
                 </Carousel.Item>
              )
@@ -113,7 +113,7 @@ function ProjectDetailInteriorPage() {
         <Carousel 
             touch={false}
             controls={selectedProject.images.length === 1 ? false : true} 
-            style={{marginTop : '50px'}} 
+            style={{marginTop : '50px', marginBottom : '50px'}} 
             activeIndex={activeIndex2} 
             onSelect={handleSelect2} 
             interval={null} variant="dark"
@@ -126,11 +126,31 @@ function ProjectDetailInteriorPage() {
                         {item.label}
                     </div>
                     <div className="d-flex justify-content-center">
-                      <img src={item.image} alt="First slide" className='col-xl-8 col-12'/>
+                      <img src={item.image} alt="First slide" className='carousel-interior-images'/>
                     </div>
-                  
-                  <div className='carousel-description-render margin-top-0'>
-                        {item.description}
+                </Carousel.Item>
+             )
+            })
+        }
+        </Carousel>:null}
+        {selectedProject.render.length!==0?
+        <Carousel 
+            touch={false}
+            controls={selectedProject.images.length === 1 ? false : true} 
+            style={{marginTop : '50px', marginBottom : '50px'}} 
+            activeIndex={activeIndex2} 
+            onSelect={handleSelect2} 
+            interval={null} variant="dark"
+            className={`${(activeIndex2 === 0 ? "carousel-no-left-arrow" : (activeIndex2 === selectedProject.render.length - 1 ? "carousel-no-right-arrow" : ""))}`}>
+        {
+            selectedProject.render.map((item) => {
+                return(
+                <Carousel.Item interval={null}>
+                    <div className='project-label'>
+                        {item.label}
+                    </div>
+                    <div className="d-flex justify-content-center">
+                      <img src={item.image} alt="First slide" className='carousel-interior-render'/>
                     </div>
                 </Carousel.Item>
              )

@@ -174,16 +174,13 @@
   }
 }
 
-.carousel-no-left-arrow{
-  .carousel-control-prev{
-    display: none !important;
-  }
+.carousel-no-left-arrow .carousel-control-prev{
+  display: none !important;
 }
 
-.carousel-no-right-arrow{
-  .carousel-control-next{
+
+.carousel-no-right-arrow .carousel-control-next{
     display: none !important;
-  }
 }
 
 
@@ -450,6 +447,18 @@
   justify-content : flex-end;
 }
 
+.carousel-interior-render{
+  height: 600px;
+}
+
+.carousel-interior-images{
+  height: 600px;
+}
+
+.carousel-interior-informations{
+  height: 700px;
+}
+
 
 /*Mobile view*/
 @media (max-width: 650px) {
@@ -624,6 +633,21 @@
 
   .carousel-render{
     height: 300px;
+  }
+
+  .carousel-interior-images{
+    height: auto;
+    max-width: 100%;
+  }
+
+  .carousel-interior-render{
+    height: auto;
+    max-width: 70%;
+  }
+
+  .carousel-interior-informations{
+    height: auto;
+    max-width: 100%;
   }
 
   .location-ascoli{
