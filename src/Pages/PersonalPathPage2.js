@@ -29,7 +29,8 @@ function PersonalPathPage2() {
       '2020 - Internship at the Serragli130 archi studio in Florence.',
       '2021 - Internship at Amlab design studio in Cuneo',
       '2022 / 2023 - Freelance collaboration with Aifaicasa studio in Turin',
-      '2023 / present - Freelance collaboration with Serragli130 archi studio in Florence'
+      '2023 / 2025 - Freelance collaboration with Serragli130 archi studio in Florence',
+      "2025 / present - Freelance collaboration with Luigi Fragola Architects studio in Florence"
     ];
     let bulletListExtras = [
       '2015 - 2017 English language courses in Brighton and Oxford.',
